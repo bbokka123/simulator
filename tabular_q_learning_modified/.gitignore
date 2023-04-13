@@ -1,11 +1,11 @@
 ./videos/*
 ./gifs/*
-./plots/*
+#./plots/*
 ./hyperparameters/*
 ./data/*
 ./tensorboard/*
 videos
-plots
+#plots
 hyperparameters
 data
 hyperparameters
