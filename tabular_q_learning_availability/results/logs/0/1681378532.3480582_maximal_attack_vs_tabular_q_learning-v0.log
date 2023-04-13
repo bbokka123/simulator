@@ -1,0 +1,743 @@
+2023-04-13 18:35:32,360,Starting Training
+2023-04-13 18:35:32,361,Hyperparameters: gamma:0.999,alpha:0.0005,epsilon:0.5,render:False,eval_sleep:0.9,epsilon_decay:0.9999,min_epsilon:0.01,eval_episodes:100,train_log_frequency:100,eval_log_frequency:1,video:False,video_fps:5,video_dir:/Users/evink/Desktop/kcc/tabular_q_learning_availability/results/videos/0/,num_episodes:2001,eval_render:False,gifs:False,gifdir:/Users/evink/Desktop/kcc/tabular_q_learning_availability/results/gifs/0/,eval_frequency:1000,video_frequency:101,attackerFalse,defender:True,checkpoint_freq:100000,random_seed:0,eval_epsilon:0.0,tab_full_state_space:False
+2023-04-13 18:35:32,365,[Train] episode: 0.00 epsilon:0.50,avg_a_R:1.00,avg_d_R:-2.80,avg_t:8.00,avg_h:1.00,acc_A_R:0.00,acc_D_R:0.00,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:1.00
+2023-04-13 18:35:32,365,Starting Evaluation
+2023-04-13 18:35:32,367,Eval episode: 0, Game ended after 6 steps
+2023-04-13 18:35:32,369,[Eval] episode:0,avg_a_R:1.00,avg_d_R:-2.20,avg_t:6.00,avg_h:1.00,acc_A_R:1.00,acc_D_R:-2.20,replay_s:-1,lr:0.00E+00,c_h:1.00
+2023-04-13 18:35:32,372,Eval episode: 1, Game ended after 6 steps
+2023-04-13 18:35:32,375,[Eval] episode:1,avg_a_R:1.00,avg_d_R:-2.20,avg_t:6.00,avg_h:1.00,acc_A_R:2.00,acc_D_R:-4.40,replay_s:-1,lr:0.00E+00,c_h:1.00
+2023-04-13 18:35:32,378,Eval episode: 2, Game ended after 6 steps
+2023-04-13 18:35:32,378,[Eval] episode:2,avg_a_R:1.00,avg_d_R:-2.20,avg_t:6.00,avg_h:1.00,acc_A_R:3.00,acc_D_R:-6.60,replay_s:-1,lr:0.00E+00,c_h:1.00
+2023-04-13 18:35:32,380,Eval episode: 3, Game ended after 6 steps
+2023-04-13 18:35:32,381,[Eval] episode:3,avg_a_R:0.50,avg_d_R:-1.78,avg_t:6.00,avg_h:0.75,acc_A_R:2.00,acc_D_R:-7.10,replay_s:-1,lr:0.00E+00,c_h:0.75
+2023-04-13 18:35:32,383,Eval episode: 4, Game ended after 6 steps
+2023-04-13 18:35:32,383,[Eval] episode:4,avg_a_R:0.60,avg_d_R:-1.86,avg_t:6.00,avg_h:0.80,acc_A_R:3.00,acc_D_R:-9.30,replay_s:-1,lr:0.00E+00,c_h:0.80
+2023-04-13 18:35:32,385,Eval episode: 5, Game ended after 6 steps
+2023-04-13 18:35:32,385,[Eval] episode:5,avg_a_R:0.67,avg_d_R:-1.92,avg_t:6.00,avg_h:0.83,acc_A_R:4.00,acc_D_R:-11.50,replay_s:-1,lr:0.00E+00,c_h:0.83
+2023-04-13 18:35:32,389,Eval episode: 6, Game ended after 10 steps
+2023-04-13 18:35:32,389,[Eval] episode:6,avg_a_R:0.71,avg_d_R:-2.04,avg_t:6.57,avg_h:0.86,acc_A_R:5.00,acc_D_R:-14.30,replay_s:-1,lr:0.00E+00,c_h:0.86
+2023-04-13 18:35:32,391,Eval episode: 7, Game ended after 6 steps
+2023-04-13 18:35:32,392,[Eval] episode:7,avg_a_R:0.50,avg_d_R:-1.85,avg_t:6.50,avg_h:0.75,acc_A_R:4.00,acc_D_R:-14.80,replay_s:-1,lr:0.00E+00,c_h:0.75
+2023-04-13 18:35:32,393,Eval episode: 8, Game ended after 5 steps
+2023-04-13 18:35:32,393,[Eval] episode:8,avg_a_R:0.33,avg_d_R:-1.67,avg_t:6.33,avg_h:0.67,acc_A_R:3.00,acc_D_R:-15.00,replay_s:-1,lr:0.00E+00,c_h:0.67
+2023-04-13 18:35:32,394,Eval episode: 9, Game ended after 2 steps
+2023-04-13 18:35:32,394,[Eval] episode:9,avg_a_R:0.20,avg_d_R:-1.46,avg_t:5.90,avg_h:0.60,acc_A_R:2.00,acc_D_R:-14.60,replay_s:-1,lr:0.00E+00,c_h:0.60
+2023-04-13 18:35:32,397,Eval episode: 10, Game ended after 6 steps
+2023-04-13 18:35:32,397,[Eval] episode:10,avg_a_R:0.27,avg_d_R:-1.53,avg_t:5.91,avg_h:0.64,acc_A_R:3.00,acc_D_R:-16.80,replay_s:-1,lr:0.00E+00,c_h:0.64
+2023-04-13 18:35:32,397,Eval episode: 11, Game ended after 1 steps
+2023-04-13 18:35:32,397,[Eval] episode:11,avg_a_R:0.17,avg_d_R:-1.34,avg_t:5.50,avg_h:0.58,acc_A_R:2.00,acc_D_R:-16.10,replay_s:-1,lr:0.00E+00,c_h:0.58
+2023-04-13 18:35:32,398,Eval episode: 12, Game ended after 2 steps
+2023-04-13 18:35:32,398,[Eval] episode:12,avg_a_R:0.08,avg_d_R:-1.21,avg_t:5.23,avg_h:0.54,acc_A_R:1.00,acc_D_R:-15.70,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,400,Eval episode: 13, Game ended after 6 steps
+2023-04-13 18:35:32,401,[Eval] episode:13,avg_a_R:0.14,avg_d_R:-1.28,avg_t:5.29,avg_h:0.57,acc_A_R:2.00,acc_D_R:-17.90,replay_s:-1,lr:0.00E+00,c_h:0.57
+2023-04-13 18:35:32,404,Eval episode: 14, Game ended after 9 steps
+2023-04-13 18:35:32,404,[Eval] episode:14,avg_a_R:0.20,avg_d_R:-1.38,avg_t:5.53,avg_h:0.60,acc_A_R:3.00,acc_D_R:-20.70,replay_s:-1,lr:0.00E+00,c_h:0.60
+2023-04-13 18:35:32,406,Eval episode: 15, Game ended after 6 steps
+2023-04-13 18:35:32,407,[Eval] episode:15,avg_a_R:0.12,avg_d_R:-1.33,avg_t:5.56,avg_h:0.56,acc_A_R:2.00,acc_D_R:-21.20,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,407,Eval episode: 16, Game ended after 2 steps
+2023-04-13 18:35:32,407,[Eval] episode:16,avg_a_R:0.06,avg_d_R:-1.22,avg_t:5.35,avg_h:0.53,acc_A_R:1.00,acc_D_R:-20.80,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,410,Eval episode: 17, Game ended after 6 steps
+2023-04-13 18:35:32,410,[Eval] episode:17,avg_a_R:0.11,avg_d_R:-1.28,avg_t:5.39,avg_h:0.56,acc_A_R:2.00,acc_D_R:-23.00,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,412,Eval episode: 18, Game ended after 7 steps
+2023-04-13 18:35:32,412,[Eval] episode:18,avg_a_R:0.16,avg_d_R:-1.34,avg_t:5.47,avg_h:0.58,acc_A_R:3.00,acc_D_R:-25.50,replay_s:-1,lr:0.00E+00,c_h:0.58
+2023-04-13 18:35:32,413,Eval episode: 19, Game ended after 2 steps
+2023-04-13 18:35:32,413,[Eval] episode:19,avg_a_R:0.10,avg_d_R:-1.26,avg_t:5.30,avg_h:0.55,acc_A_R:2.00,acc_D_R:-25.10,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,414,Eval episode: 20, Game ended after 1 steps
+2023-04-13 18:35:32,414,[Eval] episode:20,avg_a_R:0.05,avg_d_R:-1.16,avg_t:5.10,avg_h:0.52,acc_A_R:1.00,acc_D_R:-24.40,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,416,Eval episode: 21, Game ended after 6 steps
+2023-04-13 18:35:32,416,[Eval] episode:21,avg_a_R:0.09,avg_d_R:-1.21,avg_t:5.14,avg_h:0.55,acc_A_R:2.00,acc_D_R:-26.60,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,419,Eval episode: 22, Game ended after 6 steps
+2023-04-13 18:35:32,419,[Eval] episode:22,avg_a_R:0.04,avg_d_R:-1.18,avg_t:5.17,avg_h:0.52,acc_A_R:1.00,acc_D_R:-27.10,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,419,Eval episode: 23, Game ended after 2 steps
+2023-04-13 18:35:32,420,[Eval] episode:23,avg_a_R:0.00,avg_d_R:-1.11,avg_t:5.04,avg_h:0.50,acc_A_R:0.00,acc_D_R:-26.70,replay_s:-1,lr:0.00E+00,c_h:0.50
+2023-04-13 18:35:32,422,Eval episode: 24, Game ended after 7 steps
+2023-04-13 18:35:32,422,[Eval] episode:24,avg_a_R:0.04,avg_d_R:-1.17,avg_t:5.12,avg_h:0.52,acc_A_R:1.00,acc_D_R:-29.20,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,424,Eval episode: 25, Game ended after 6 steps
+2023-04-13 18:35:32,424,[Eval] episode:25,avg_a_R:0.08,avg_d_R:-1.21,avg_t:5.15,avg_h:0.54,acc_A_R:2.00,acc_D_R:-31.40,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,426,Eval episode: 26, Game ended after 4 steps
+2023-04-13 18:35:32,426,[Eval] episode:26,avg_a_R:0.04,avg_d_R:-1.17,avg_t:5.11,avg_h:0.52,acc_A_R:1.00,acc_D_R:-31.60,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,428,Eval episode: 27, Game ended after 4 steps
+2023-04-13 18:35:32,428,[Eval] episode:27,avg_a_R:0.00,avg_d_R:-1.12,avg_t:5.07,avg_h:0.50,acc_A_R:0.00,acc_D_R:-31.50,replay_s:-1,lr:0.00E+00,c_h:0.50
+2023-04-13 18:35:32,428,Eval episode: 28, Game ended after 1 steps
+2023-04-13 18:35:32,428,[Eval] episode:28,avg_a_R:-0.03,avg_d_R:-1.06,avg_t:4.93,avg_h:0.48,acc_A_R:-1.00,acc_D_R:-30.80,replay_s:-1,lr:0.00E+00,c_h:0.48
+2023-04-13 18:35:32,431,Eval episode: 29, Game ended after 6 steps
+2023-04-13 18:35:32,431,[Eval] episode:29,avg_a_R:0.00,avg_d_R:-1.10,avg_t:4.97,avg_h:0.50,acc_A_R:0.00,acc_D_R:-33.00,replay_s:-1,lr:0.00E+00,c_h:0.50
+2023-04-13 18:35:32,433,Eval episode: 30, Game ended after 7 steps
+2023-04-13 18:35:32,434,[Eval] episode:30,avg_a_R:0.03,avg_d_R:-1.15,avg_t:5.03,avg_h:0.52,acc_A_R:1.00,acc_D_R:-35.50,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,436,Eval episode: 31, Game ended after 6 steps
+2023-04-13 18:35:32,437,[Eval] episode:31,avg_a_R:0.06,avg_d_R:-1.18,avg_t:5.06,avg_h:0.53,acc_A_R:2.00,acc_D_R:-37.70,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,439,Eval episode: 32, Game ended after 6 steps
+2023-04-13 18:35:32,439,[Eval] episode:32,avg_a_R:0.03,avg_d_R:-1.16,avg_t:5.09,avg_h:0.52,acc_A_R:1.00,acc_D_R:-38.20,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,442,Eval episode: 33, Game ended after 7 steps
+2023-04-13 18:35:32,442,[Eval] episode:33,avg_a_R:0.06,avg_d_R:-1.20,avg_t:5.15,avg_h:0.53,acc_A_R:2.00,acc_D_R:-40.70,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,444,Eval episode: 34, Game ended after 6 steps
+2023-04-13 18:35:32,445,[Eval] episode:34,avg_a_R:0.09,avg_d_R:-1.23,avg_t:5.17,avg_h:0.54,acc_A_R:3.00,acc_D_R:-42.90,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,447,Eval episode: 35, Game ended after 6 steps
+2023-04-13 18:35:32,447,[Eval] episode:35,avg_a_R:0.11,avg_d_R:-1.25,avg_t:5.19,avg_h:0.56,acc_A_R:4.00,acc_D_R:-45.10,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,449,Eval episode: 36, Game ended after 5 steps
+2023-04-13 18:35:32,449,[Eval] episode:36,avg_a_R:0.08,avg_d_R:-1.22,avg_t:5.19,avg_h:0.54,acc_A_R:3.00,acc_D_R:-45.30,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,450,Eval episode: 37, Game ended after 2 steps
+2023-04-13 18:35:32,450,[Eval] episode:37,avg_a_R:0.05,avg_d_R:-1.18,avg_t:5.11,avg_h:0.53,acc_A_R:2.00,acc_D_R:-44.90,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,452,Eval episode: 38, Game ended after 6 steps
+2023-04-13 18:35:32,452,[Eval] episode:38,avg_a_R:0.08,avg_d_R:-1.21,avg_t:5.13,avg_h:0.54,acc_A_R:3.00,acc_D_R:-47.10,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,454,Eval episode: 39, Game ended after 6 steps
+2023-04-13 18:35:32,454,[Eval] episode:39,avg_a_R:0.10,avg_d_R:-1.23,avg_t:5.15,avg_h:0.55,acc_A_R:4.00,acc_D_R:-49.30,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,455,Eval episode: 40, Game ended after 1 steps
+2023-04-13 18:35:32,455,[Eval] episode:40,avg_a_R:0.07,avg_d_R:-1.19,avg_t:5.05,avg_h:0.54,acc_A_R:3.00,acc_D_R:-48.60,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,457,Eval episode: 41, Game ended after 6 steps
+2023-04-13 18:35:32,457,[Eval] episode:41,avg_a_R:0.10,avg_d_R:-1.21,avg_t:5.07,avg_h:0.55,acc_A_R:4.00,acc_D_R:-50.80,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,460,Eval episode: 42, Game ended after 6 steps
+2023-04-13 18:35:32,460,[Eval] episode:42,avg_a_R:0.12,avg_d_R:-1.23,avg_t:5.09,avg_h:0.56,acc_A_R:5.00,acc_D_R:-53.00,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,461,Eval episode: 43, Game ended after 4 steps
+2023-04-13 18:35:32,461,[Eval] episode:43,avg_a_R:0.09,avg_d_R:-1.21,avg_t:5.07,avg_h:0.55,acc_A_R:4.00,acc_D_R:-53.20,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,464,Eval episode: 44, Game ended after 9 steps
+2023-04-13 18:35:32,465,[Eval] episode:44,avg_a_R:0.11,avg_d_R:-1.24,avg_t:5.16,avg_h:0.56,acc_A_R:5.00,acc_D_R:-56.00,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,467,Eval episode: 45, Game ended after 6 steps
+2023-04-13 18:35:32,467,[Eval] episode:45,avg_a_R:0.13,avg_d_R:-1.27,avg_t:5.17,avg_h:0.57,acc_A_R:6.00,acc_D_R:-58.20,replay_s:-1,lr:0.00E+00,c_h:0.57
+2023-04-13 18:35:32,470,Eval episode: 46, Game ended after 7 steps
+2023-04-13 18:35:32,470,[Eval] episode:46,avg_a_R:0.11,avg_d_R:-1.26,avg_t:5.21,avg_h:0.55,acc_A_R:5.00,acc_D_R:-59.00,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,471,Eval episode: 47, Game ended after 2 steps
+2023-04-13 18:35:32,471,[Eval] episode:47,avg_a_R:0.08,avg_d_R:-1.22,avg_t:5.15,avg_h:0.54,acc_A_R:4.00,acc_D_R:-58.60,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,472,Eval episode: 48, Game ended after 2 steps
+2023-04-13 18:35:32,472,[Eval] episode:48,avg_a_R:0.06,avg_d_R:-1.19,avg_t:5.08,avg_h:0.53,acc_A_R:3.00,acc_D_R:-58.20,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,474,Eval episode: 49, Game ended after 7 steps
+2023-04-13 18:35:32,474,[Eval] episode:49,avg_a_R:0.08,avg_d_R:-1.21,avg_t:5.12,avg_h:0.54,acc_A_R:4.00,acc_D_R:-60.70,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,477,Eval episode: 50, Game ended after 7 steps
+2023-04-13 18:35:32,477,[Eval] episode:50,avg_a_R:0.06,avg_d_R:-1.21,avg_t:5.16,avg_h:0.53,acc_A_R:3.00,acc_D_R:-61.50,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,478,Eval episode: 51, Game ended after 1 steps
+2023-04-13 18:35:32,478,[Eval] episode:51,avg_a_R:0.04,avg_d_R:-1.17,avg_t:5.08,avg_h:0.52,acc_A_R:2.00,acc_D_R:-60.80,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,480,Eval episode: 52, Game ended after 6 steps
+2023-04-13 18:35:32,480,[Eval] episode:52,avg_a_R:0.06,avg_d_R:-1.19,avg_t:5.09,avg_h:0.53,acc_A_R:3.00,acc_D_R:-63.00,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,482,Eval episode: 53, Game ended after 6 steps
+2023-04-13 18:35:32,482,[Eval] episode:53,avg_a_R:0.07,avg_d_R:-1.21,avg_t:5.11,avg_h:0.54,acc_A_R:4.00,acc_D_R:-65.20,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,485,Eval episode: 54, Game ended after 7 steps
+2023-04-13 18:35:32,485,[Eval] episode:54,avg_a_R:0.09,avg_d_R:-1.23,avg_t:5.15,avg_h:0.55,acc_A_R:5.00,acc_D_R:-67.70,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,487,Eval episode: 55, Game ended after 6 steps
+2023-04-13 18:35:32,488,[Eval] episode:55,avg_a_R:0.11,avg_d_R:-1.25,avg_t:5.16,avg_h:0.55,acc_A_R:6.00,acc_D_R:-69.90,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,489,Eval episode: 56, Game ended after 4 steps
+2023-04-13 18:35:32,489,[Eval] episode:56,avg_a_R:0.09,avg_d_R:-1.22,avg_t:5.14,avg_h:0.54,acc_A_R:5.00,acc_D_R:-69.80,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,491,Eval episode: 57, Game ended after 5 steps
+2023-04-13 18:35:32,491,[Eval] episode:57,avg_a_R:0.07,avg_d_R:-1.21,avg_t:5.14,avg_h:0.53,acc_A_R:4.00,acc_D_R:-70.00,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,494,Eval episode: 58, Game ended after 7 steps
+2023-04-13 18:35:32,494,[Eval] episode:58,avg_a_R:0.08,avg_d_R:-1.23,avg_t:5.17,avg_h:0.54,acc_A_R:5.00,acc_D_R:-72.50,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,496,Eval episode: 59, Game ended after 6 steps
+2023-04-13 18:35:32,496,[Eval] episode:59,avg_a_R:0.10,avg_d_R:-1.25,avg_t:5.18,avg_h:0.55,acc_A_R:6.00,acc_D_R:-74.70,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,499,Eval episode: 60, Game ended after 6 steps
+2023-04-13 18:35:32,499,[Eval] episode:60,avg_a_R:0.11,avg_d_R:-1.26,avg_t:5.20,avg_h:0.56,acc_A_R:7.00,acc_D_R:-76.90,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,502,Eval episode: 61, Game ended after 7 steps
+2023-04-13 18:35:32,502,[Eval] episode:61,avg_a_R:0.13,avg_d_R:-1.28,avg_t:5.23,avg_h:0.56,acc_A_R:8.00,acc_D_R:-79.40,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,503,Eval episode: 62, Game ended after 2 steps
+2023-04-13 18:35:32,503,[Eval] episode:62,avg_a_R:0.11,avg_d_R:-1.25,avg_t:5.17,avg_h:0.56,acc_A_R:7.00,acc_D_R:-79.00,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,505,Eval episode: 63, Game ended after 5 steps
+2023-04-13 18:35:32,505,[Eval] episode:63,avg_a_R:0.09,avg_d_R:-1.24,avg_t:5.17,avg_h:0.55,acc_A_R:6.00,acc_D_R:-79.20,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,506,Eval episode: 64, Game ended after 2 steps
+2023-04-13 18:35:32,506,[Eval] episode:64,avg_a_R:0.08,avg_d_R:-1.21,avg_t:5.12,avg_h:0.54,acc_A_R:5.00,acc_D_R:-78.80,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,508,Eval episode: 65, Game ended after 6 steps
+2023-04-13 18:35:32,508,[Eval] episode:65,avg_a_R:0.09,avg_d_R:-1.23,avg_t:5.14,avg_h:0.55,acc_A_R:6.00,acc_D_R:-81.00,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,511,Eval episode: 66, Game ended after 6 steps
+2023-04-13 18:35:32,511,[Eval] episode:66,avg_a_R:0.10,avg_d_R:-1.24,avg_t:5.15,avg_h:0.55,acc_A_R:7.00,acc_D_R:-83.20,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,511,Eval episode: 67, Game ended after 1 steps
+2023-04-13 18:35:32,511,[Eval] episode:67,avg_a_R:0.09,avg_d_R:-1.21,avg_t:5.09,avg_h:0.54,acc_A_R:6.00,acc_D_R:-82.50,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,514,Eval episode: 68, Game ended after 7 steps
+2023-04-13 18:35:32,514,[Eval] episode:68,avg_a_R:0.10,avg_d_R:-1.23,avg_t:5.12,avg_h:0.55,acc_A_R:7.00,acc_D_R:-85.00,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,515,Eval episode: 69, Game ended after 1 steps
+2023-04-13 18:35:32,515,[Eval] episode:69,avg_a_R:0.09,avg_d_R:-1.20,avg_t:5.06,avg_h:0.54,acc_A_R:6.00,acc_D_R:-84.30,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,516,Eval episode: 70, Game ended after 4 steps
+2023-04-13 18:35:32,516,[Eval] episode:70,avg_a_R:0.07,avg_d_R:-1.19,avg_t:5.04,avg_h:0.54,acc_A_R:5.00,acc_D_R:-84.20,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,517,Eval episode: 71, Game ended after 1 steps
+2023-04-13 18:35:32,517,[Eval] episode:71,avg_a_R:0.06,avg_d_R:-1.16,avg_t:4.99,avg_h:0.53,acc_A_R:4.00,acc_D_R:-83.50,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,517,Eval episode: 72, Game ended after 1 steps
+2023-04-13 18:35:32,518,[Eval] episode:72,avg_a_R:0.04,avg_d_R:-1.13,avg_t:4.93,avg_h:0.52,acc_A_R:3.00,acc_D_R:-82.80,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,520,Eval episode: 73, Game ended after 7 steps
+2023-04-13 18:35:32,520,[Eval] episode:73,avg_a_R:0.05,avg_d_R:-1.15,avg_t:4.96,avg_h:0.53,acc_A_R:4.00,acc_D_R:-85.30,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,523,Eval episode: 74, Game ended after 8 steps
+2023-04-13 18:35:32,524,[Eval] episode:74,avg_a_R:0.07,avg_d_R:-1.17,avg_t:5.00,avg_h:0.53,acc_A_R:5.00,acc_D_R:-88.10,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,524,Eval episode: 75, Game ended after 1 steps
+2023-04-13 18:35:32,524,[Eval] episode:75,avg_a_R:0.05,avg_d_R:-1.15,avg_t:4.95,avg_h:0.53,acc_A_R:4.00,acc_D_R:-87.40,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,526,Eval episode: 76, Game ended after 4 steps
+2023-04-13 18:35:32,526,[Eval] episode:76,avg_a_R:0.04,avg_d_R:-1.13,avg_t:4.94,avg_h:0.52,acc_A_R:3.00,acc_D_R:-87.30,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,526,Eval episode: 77, Game ended after 1 steps
+2023-04-13 18:35:32,526,[Eval] episode:77,avg_a_R:0.03,avg_d_R:-1.11,avg_t:4.88,avg_h:0.51,acc_A_R:2.00,acc_D_R:-86.60,replay_s:-1,lr:0.00E+00,c_h:0.51
+2023-04-13 18:35:32,529,Eval episode: 78, Game ended after 6 steps
+2023-04-13 18:35:32,529,[Eval] episode:78,avg_a_R:0.04,avg_d_R:-1.12,avg_t:4.90,avg_h:0.52,acc_A_R:3.00,acc_D_R:-88.80,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:32,531,Eval episode: 79, Game ended after 6 steps
+2023-04-13 18:35:32,531,[Eval] episode:79,avg_a_R:0.05,avg_d_R:-1.14,avg_t:4.91,avg_h:0.53,acc_A_R:4.00,acc_D_R:-91.00,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,534,Eval episode: 80, Game ended after 6 steps
+2023-04-13 18:35:32,534,[Eval] episode:80,avg_a_R:0.06,avg_d_R:-1.15,avg_t:4.93,avg_h:0.53,acc_A_R:5.00,acc_D_R:-93.20,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:32,536,Eval episode: 81, Game ended after 6 steps
+2023-04-13 18:35:32,536,[Eval] episode:81,avg_a_R:0.07,avg_d_R:-1.16,avg_t:4.94,avg_h:0.54,acc_A_R:6.00,acc_D_R:-95.40,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,539,Eval episode: 82, Game ended after 7 steps
+2023-04-13 18:35:32,539,[Eval] episode:82,avg_a_R:0.08,avg_d_R:-1.18,avg_t:4.96,avg_h:0.54,acc_A_R:7.00,acc_D_R:-97.90,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:32,541,Eval episode: 83, Game ended after 6 steps
+2023-04-13 18:35:32,541,[Eval] episode:83,avg_a_R:0.10,avg_d_R:-1.19,avg_t:4.98,avg_h:0.55,acc_A_R:8.00,acc_D_R:-100.10,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,544,Eval episode: 84, Game ended after 8 steps
+2023-04-13 18:35:32,544,[Eval] episode:84,avg_a_R:0.11,avg_d_R:-1.21,avg_t:5.01,avg_h:0.55,acc_A_R:9.00,acc_D_R:-102.90,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,547,Eval episode: 85, Game ended after 7 steps
+2023-04-13 18:35:32,547,[Eval] episode:85,avg_a_R:0.12,avg_d_R:-1.23,avg_t:5.03,avg_h:0.56,acc_A_R:10.00,acc_D_R:-105.40,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,547,Eval episode: 86, Game ended after 1 steps
+2023-04-13 18:35:32,547,[Eval] episode:86,avg_a_R:0.10,avg_d_R:-1.20,avg_t:4.99,avg_h:0.55,acc_A_R:9.00,acc_D_R:-104.70,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,550,Eval episode: 87, Game ended after 7 steps
+2023-04-13 18:35:32,550,[Eval] episode:87,avg_a_R:0.11,avg_d_R:-1.22,avg_t:5.01,avg_h:0.56,acc_A_R:10.00,acc_D_R:-107.20,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,552,Eval episode: 88, Game ended after 4 steps
+2023-04-13 18:35:32,552,[Eval] episode:88,avg_a_R:0.10,avg_d_R:-1.20,avg_t:5.00,avg_h:0.55,acc_A_R:9.00,acc_D_R:-107.10,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,554,Eval episode: 89, Game ended after 6 steps
+2023-04-13 18:35:32,554,[Eval] episode:89,avg_a_R:0.11,avg_d_R:-1.21,avg_t:5.01,avg_h:0.56,acc_A_R:10.00,acc_D_R:-109.30,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,556,Eval episode: 90, Game ended after 6 steps
+2023-04-13 18:35:32,557,[Eval] episode:90,avg_a_R:0.12,avg_d_R:-1.23,avg_t:5.02,avg_h:0.56,acc_A_R:11.00,acc_D_R:-111.50,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,559,Eval episode: 91, Game ended after 6 steps
+2023-04-13 18:35:32,559,[Eval] episode:91,avg_a_R:0.13,avg_d_R:-1.24,avg_t:5.03,avg_h:0.57,acc_A_R:12.00,acc_D_R:-113.70,replay_s:-1,lr:0.00E+00,c_h:0.57
+2023-04-13 18:35:32,561,Eval episode: 92, Game ended after 6 steps
+2023-04-13 18:35:32,561,[Eval] episode:92,avg_a_R:0.14,avg_d_R:-1.25,avg_t:5.04,avg_h:0.57,acc_A_R:13.00,acc_D_R:-115.90,replay_s:-1,lr:0.00E+00,c_h:0.57
+2023-04-13 18:35:32,562,Eval episode: 93, Game ended after 3 steps
+2023-04-13 18:35:32,562,[Eval] episode:93,avg_a_R:0.13,avg_d_R:-1.23,avg_t:5.02,avg_h:0.56,acc_A_R:12.00,acc_D_R:-115.80,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,564,Eval episode: 94, Game ended after 4 steps
+2023-04-13 18:35:32,564,[Eval] episode:94,avg_a_R:0.12,avg_d_R:-1.22,avg_t:5.01,avg_h:0.56,acc_A_R:11.00,acc_D_R:-115.70,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,565,Eval episode: 95, Game ended after 2 steps
+2023-04-13 18:35:32,565,[Eval] episode:95,avg_a_R:0.10,avg_d_R:-1.20,avg_t:4.98,avg_h:0.55,acc_A_R:10.00,acc_D_R:-115.30,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,567,Eval episode: 96, Game ended after 6 steps
+2023-04-13 18:35:32,567,[Eval] episode:96,avg_a_R:0.11,avg_d_R:-1.21,avg_t:4.99,avg_h:0.56,acc_A_R:11.00,acc_D_R:-117.50,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,569,Eval episode: 97, Game ended after 4 steps
+2023-04-13 18:35:32,569,[Eval] episode:97,avg_a_R:0.10,avg_d_R:-1.20,avg_t:4.98,avg_h:0.55,acc_A_R:10.00,acc_D_R:-117.40,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:32,571,Eval episode: 98, Game ended after 6 steps
+2023-04-13 18:35:32,571,[Eval] episode:98,avg_a_R:0.11,avg_d_R:-1.21,avg_t:4.99,avg_h:0.56,acc_A_R:11.00,acc_D_R:-119.60,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,573,Eval episode: 99, Game ended after 6 steps
+2023-04-13 18:35:32,573,[Eval] episode:99,avg_a_R:0.12,avg_d_R:-1.22,avg_t:5.00,avg_h:0.56,acc_A_R:12.00,acc_D_R:-121.80,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,573,[Eval] episode:0,avg_a_R:0.12,avg_d_R:-1.22,avg_t:5.00,avg_h:0.56,acc_A_R:12.00,acc_D_R:-121.80,replay_s:-1,lr:0.00E+00,c_h:0.56
+2023-04-13 18:35:32,574,Evaluation Complete
+2023-04-13 18:35:32,574,Saving Q-table to: /Users/evink/Desktop/kcc/tabular_q_learning_availability/results/data/0//1681378532.5740328_defender_q_table.npy
+2023-04-13 18:35:32,766,[Train] episode: 100.00 epsilon:0.50,avg_a_R:0.16,avg_d_R:-1.33,avg_t:5.26,avg_h:0.58,acc_A_R:17.00,acc_D_R:-133.40,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.58
+2023-04-13 18:35:32,965,[Train] episode: 200.00 epsilon:0.49,avg_a_R:0.04,avg_d_R:-1.30,avg_t:5.51,avg_h:0.52,acc_A_R:21.00,acc_D_R:-262.80,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.55
+2023-04-13 18:35:33,156,[Train] episode: 300.00 epsilon:0.49,avg_a_R:0.20,avg_d_R:-1.35,avg_t:5.20,avg_h:0.60,acc_A_R:41.00,acc_D_R:-398.30,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.57
+2023-04-13 18:35:33,359,[Train] episode: 400.00 epsilon:0.48,avg_a_R:0.14,avg_d_R:-1.35,avg_t:5.39,avg_h:0.57,acc_A_R:53.00,acc_D_R:-530.00,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.57
+2023-04-13 18:35:33,545,[Train] episode: 500.00 epsilon:0.48,avg_a_R:0.10,avg_d_R:-1.29,avg_t:5.29,avg_h:0.55,acc_A_R:65.00,acc_D_R:-662.60,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.56
+2023-04-13 18:35:33,735,[Train] episode: 600.00 epsilon:0.47,avg_a_R:0.04,avg_d_R:-1.27,avg_t:5.38,avg_h:0.52,acc_A_R:67.00,acc_D_R:-786.10,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.56
+2023-04-13 18:35:33,911,[Train] episode: 700.00 epsilon:0.47,avg_a_R:-0.12,avg_d_R:-1.01,avg_t:4.96,avg_h:0.44,acc_A_R:55.00,acc_D_R:-887.80,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:34,100,[Train] episode: 800.00 epsilon:0.46,avg_a_R:0.10,avg_d_R:-1.30,avg_t:5.32,avg_h:0.55,acc_A_R:65.00,acc_D_R:-1017.50,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:34,303,[Train] episode: 900.00 epsilon:0.46,avg_a_R:0.26,avg_d_R:-1.48,avg_t:5.52,avg_h:0.63,acc_A_R:93.00,acc_D_R:-1167.90,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.55
+2023-04-13 18:35:34,497,[Train] episode: 1000.00 epsilon:0.45,avg_a_R:0.18,avg_d_R:-1.40,avg_t:5.41,avg_h:0.59,acc_A_R:109.00,acc_D_R:-1305.70,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.56
+2023-04-13 18:35:34,497,Starting Evaluation
+2023-04-13 18:35:34,497,starting eval with non-empty result object
+2023-04-13 18:35:34,502,Eval episode: 0, Game ended after 14 steps
+2023-04-13 18:35:34,502,[Eval] episode:0,avg_a_R:-1.00,avg_d_R:-0.80,avg_t:14.00,avg_h:0.00,acc_A_R:11.00,acc_D_R:-122.60,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:34,510,Eval episode: 1, Game ended after 22 steps
+2023-04-13 18:35:34,510,[Eval] episode:1,avg_a_R:-1.00,avg_d_R:-0.80,avg_t:18.00,avg_h:0.00,acc_A_R:10.00,acc_D_R:-123.40,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:34,512,Eval episode: 2, Game ended after 6 steps
+2023-04-13 18:35:34,513,[Eval] episode:2,avg_a_R:-1.00,avg_d_R:-0.70,avg_t:14.00,avg_h:0.00,acc_A_R:9.00,acc_D_R:-123.90,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:34,520,Eval episode: 3, Game ended after 20 steps
+2023-04-13 18:35:34,520,[Eval] episode:3,avg_a_R:-0.50,avg_d_R:-1.23,avg_t:15.50,avg_h:0.25,acc_A_R:10.00,acc_D_R:-126.70,replay_s:-1,lr:0.00E+00,c_h:0.55
+2023-04-13 18:35:34,527,Eval episode: 4, Game ended after 20 steps
+2023-04-13 18:35:34,527,[Eval] episode:4,avg_a_R:-0.60,avg_d_R:-1.14,avg_t:16.40,avg_h:0.20,acc_A_R:9.00,acc_D_R:-127.50,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:34,528,Eval episode: 5, Game ended after 2 steps
+2023-04-13 18:35:34,528,[Eval] episode:5,avg_a_R:-0.67,avg_d_R:-0.88,avg_t:14.00,avg_h:0.17,acc_A_R:8.00,acc_D_R:-127.10,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:34,534,Eval episode: 6, Game ended after 18 steps
+2023-04-13 18:35:34,534,[Eval] episode:6,avg_a_R:-0.43,avg_d_R:-1.16,avg_t:14.57,avg_h:0.29,acc_A_R:9.00,acc_D_R:-129.90,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:34,535,Eval episode: 7, Game ended after 1 steps
+2023-04-13 18:35:34,535,[Eval] episode:7,avg_a_R:-0.50,avg_d_R:-0.93,avg_t:12.88,avg_h:0.25,acc_A_R:8.00,acc_D_R:-129.20,replay_s:-1,lr:0.00E+00,c_h:0.54
+2023-04-13 18:35:34,538,Eval episode: 8, Game ended after 8 steps
+2023-04-13 18:35:34,538,[Eval] episode:8,avg_a_R:-0.56,avg_d_R:-0.91,avg_t:12.33,avg_h:0.22,acc_A_R:7.00,acc_D_R:-130.00,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:34,538,Eval episode: 9, Game ended after 1 steps
+2023-04-13 18:35:34,538,[Eval] episode:9,avg_a_R:-0.60,avg_d_R:-0.75,avg_t:11.20,avg_h:0.20,acc_A_R:6.00,acc_D_R:-129.30,replay_s:-1,lr:0.00E+00,c_h:0.53
+2023-04-13 18:35:34,542,Eval episode: 10, Game ended after 11 steps
+2023-04-13 18:35:34,542,[Eval] episode:10,avg_a_R:-0.64,avg_d_R:-0.75,avg_t:11.18,avg_h:0.18,acc_A_R:5.00,acc_D_R:-130.10,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:34,548,Eval episode: 11, Game ended after 18 steps
+2023-04-13 18:35:34,548,[Eval] episode:11,avg_a_R:-0.67,avg_d_R:-0.76,avg_t:11.75,avg_h:0.17,acc_A_R:4.00,acc_D_R:-130.90,replay_s:-1,lr:0.00E+00,c_h:0.52
+2023-04-13 18:35:34,551,Eval episode: 12, Game ended after 6 steps
+2023-04-13 18:35:34,551,[Eval] episode:12,avg_a_R:-0.69,avg_d_R:-0.74,avg_t:11.31,avg_h:0.15,acc_A_R:3.00,acc_D_R:-131.40,replay_s:-1,lr:0.00E+00,c_h:0.51
+2023-04-13 18:35:34,556,Eval episode: 13, Game ended after 15 steps
+2023-04-13 18:35:34,557,[Eval] episode:13,avg_a_R:-0.71,avg_d_R:-0.74,avg_t:11.57,avg_h:0.14,acc_A_R:2.00,acc_D_R:-132.20,replay_s:-1,lr:0.00E+00,c_h:0.51
+2023-04-13 18:35:34,557,Eval episode: 14, Game ended after 2 steps
+2023-04-13 18:35:34,557,[Eval] episode:14,avg_a_R:-0.73,avg_d_R:-0.67,avg_t:10.93,avg_h:0.13,acc_A_R:1.00,acc_D_R:-131.80,replay_s:-1,lr:0.00E+00,c_h:0.50
+2023-04-13 18:35:34,562,Eval episode: 15, Game ended after 14 steps
+2023-04-13 18:35:34,562,[Eval] episode:15,avg_a_R:-0.75,avg_d_R:-0.68,avg_t:11.12,avg_h:0.12,acc_A_R:0.00,acc_D_R:-132.60,replay_s:-1,lr:0.00E+00,c_h:0.50
+2023-04-13 18:35:34,565,Eval episode: 16, Game ended after 6 steps
+2023-04-13 18:35:34,565,[Eval] episode:16,avg_a_R:-0.76,avg_d_R:-0.66,avg_t:10.82,avg_h:0.12,acc_A_R:-1.00,acc_D_R:-133.10,replay_s:-1,lr:0.00E+00,c_h:0.50
+2023-04-13 18:35:34,567,Eval episode: 17, Game ended after 6 steps
+2023-04-13 18:35:34,567,[Eval] episode:17,avg_a_R:-0.78,avg_d_R:-0.66,avg_t:10.56,avg_h:0.11,acc_A_R:-2.00,acc_D_R:-133.60,replay_s:-1,lr:0.00E+00,c_h:0.49
+2023-04-13 18:35:34,568,Eval episode: 18, Game ended after 2 steps
+2023-04-13 18:35:34,568,[Eval] episode:18,avg_a_R:-0.79,avg_d_R:-0.60,avg_t:10.11,avg_h:0.11,acc_A_R:-3.00,acc_D_R:-133.20,replay_s:-1,lr:0.00E+00,c_h:0.49
+2023-04-13 18:35:34,568,Eval episode: 19, Game ended after 1 steps
+2023-04-13 18:35:34,568,[Eval] episode:19,avg_a_R:-0.80,avg_d_R:-0.54,avg_t:9.65,avg_h:0.10,acc_A_R:-4.00,acc_D_R:-132.50,replay_s:-1,lr:0.00E+00,c_h:0.48
+2023-04-13 18:35:34,572,Eval episode: 20, Game ended after 9 steps
+2023-04-13 18:35:34,572,[Eval] episode:20,avg_a_R:-0.81,avg_d_R:-0.55,avg_t:9.62,avg_h:0.10,acc_A_R:-5.00,acc_D_R:-133.30,replay_s:-1,lr:0.00E+00,c_h:0.48
+2023-04-13 18:35:34,578,Eval episode: 21, Game ended after 18 steps
+2023-04-13 18:35:34,578,[Eval] episode:21,avg_a_R:-0.73,avg_d_R:-0.65,avg_t:10.00,avg_h:0.14,acc_A_R:-4.00,acc_D_R:-136.10,replay_s:-1,lr:0.00E+00,c_h:0.48
+2023-04-13 18:35:34,584,Eval episode: 22, Game ended after 17 steps
+2023-04-13 18:35:34,584,[Eval] episode:22,avg_a_R:-0.74,avg_d_R:-0.66,avg_t:10.30,avg_h:0.13,acc_A_R:-5.00,acc_D_R:-136.90,replay_s:-1,lr:0.00E+00,c_h:0.48
+2023-04-13 18:35:34,585,Eval episode: 23, Game ended after 2 steps
+2023-04-13 18:35:34,585,[Eval] episode:23,avg_a_R:-0.75,avg_d_R:-0.61,avg_t:9.96,avg_h:0.12,acc_A_R:-6.00,acc_D_R:-136.50,replay_s:-1,lr:0.00E+00,c_h:0.48
+2023-04-13 18:35:34,586,Eval episode: 24, Game ended after 2 steps
+2023-04-13 18:35:34,586,[Eval] episode:24,avg_a_R:-0.76,avg_d_R:-0.57,avg_t:9.64,avg_h:0.12,acc_A_R:-7.00,acc_D_R:-136.10,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:34,587,Eval episode: 25, Game ended after 2 steps
+2023-04-13 18:35:34,587,[Eval] episode:25,avg_a_R:-0.77,avg_d_R:-0.53,avg_t:9.35,avg_h:0.12,acc_A_R:-8.00,acc_D_R:-135.70,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:34,588,Eval episode: 26, Game ended after 2 steps
+2023-04-13 18:35:34,588,[Eval] episode:26,avg_a_R:-0.78,avg_d_R:-0.50,avg_t:9.07,avg_h:0.11,acc_A_R:-9.00,acc_D_R:-135.30,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:34,591,Eval episode: 27, Game ended after 8 steps
+2023-04-13 18:35:34,591,[Eval] episode:27,avg_a_R:-0.79,avg_d_R:-0.51,avg_t:9.04,avg_h:0.11,acc_A_R:-10.00,acc_D_R:-136.10,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:34,592,Eval episode: 28, Game ended after 2 steps
+2023-04-13 18:35:34,592,[Eval] episode:28,avg_a_R:-0.79,avg_d_R:-0.48,avg_t:8.79,avg_h:0.10,acc_A_R:-11.00,acc_D_R:-135.70,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:34,594,Eval episode: 29, Game ended after 5 steps
+2023-04-13 18:35:34,594,[Eval] episode:29,avg_a_R:-0.80,avg_d_R:-0.47,avg_t:8.67,avg_h:0.10,acc_A_R:-12.00,acc_D_R:-135.90,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:34,596,Eval episode: 30, Game ended after 5 steps
+2023-04-13 18:35:34,596,[Eval] episode:30,avg_a_R:-0.81,avg_d_R:-0.46,avg_t:8.55,avg_h:0.10,acc_A_R:-13.00,acc_D_R:-136.10,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:34,599,Eval episode: 31, Game ended after 8 steps
+2023-04-13 18:35:34,599,[Eval] episode:31,avg_a_R:-0.81,avg_d_R:-0.47,avg_t:8.53,avg_h:0.09,acc_A_R:-14.00,acc_D_R:-136.90,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:34,601,Eval episode: 32, Game ended after 6 steps
+2023-04-13 18:35:34,601,[Eval] episode:32,avg_a_R:-0.82,avg_d_R:-0.47,avg_t:8.45,avg_h:0.09,acc_A_R:-15.00,acc_D_R:-137.40,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:34,608,Eval episode: 33, Game ended after 19 steps
+2023-04-13 18:35:34,608,[Eval] episode:33,avg_a_R:-0.82,avg_d_R:-0.48,avg_t:8.76,avg_h:0.09,acc_A_R:-16.00,acc_D_R:-138.20,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:34,609,Eval episode: 34, Game ended after 2 steps
+2023-04-13 18:35:34,609,[Eval] episode:34,avg_a_R:-0.83,avg_d_R:-0.46,avg_t:8.57,avg_h:0.09,acc_A_R:-17.00,acc_D_R:-137.80,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:34,609,Eval episode: 35, Game ended after 1 steps
+2023-04-13 18:35:34,610,[Eval] episode:35,avg_a_R:-0.83,avg_d_R:-0.42,avg_t:8.36,avg_h:0.08,acc_A_R:-18.00,acc_D_R:-137.10,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,617,Eval episode: 36, Game ended after 21 steps
+2023-04-13 18:35:34,617,[Eval] episode:36,avg_a_R:-0.84,avg_d_R:-0.44,avg_t:8.70,avg_h:0.08,acc_A_R:-19.00,acc_D_R:-137.90,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,624,Eval episode: 37, Game ended after 19 steps
+2023-04-13 18:35:34,624,[Eval] episode:37,avg_a_R:-0.79,avg_d_R:-0.50,avg_t:8.97,avg_h:0.11,acc_A_R:-18.00,acc_D_R:-140.70,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,625,Eval episode: 38, Game ended after 4 steps
+2023-04-13 18:35:34,625,[Eval] episode:38,avg_a_R:-0.79,avg_d_R:-0.48,avg_t:8.85,avg_h:0.10,acc_A_R:-19.00,acc_D_R:-140.60,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,629,Eval episode: 39, Game ended after 9 steps
+2023-04-13 18:35:34,629,[Eval] episode:39,avg_a_R:-0.80,avg_d_R:-0.49,avg_t:8.85,avg_h:0.10,acc_A_R:-20.00,acc_D_R:-141.40,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,629,Eval episode: 40, Game ended after 1 steps
+2023-04-13 18:35:34,629,[Eval] episode:40,avg_a_R:-0.80,avg_d_R:-0.46,avg_t:8.66,avg_h:0.10,acc_A_R:-21.00,acc_D_R:-140.70,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,638,Eval episode: 41, Game ended after 25 steps
+2023-04-13 18:35:34,638,[Eval] episode:41,avg_a_R:-0.76,avg_d_R:-0.52,avg_t:9.05,avg_h:0.12,acc_A_R:-20.00,acc_D_R:-143.50,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,644,Eval episode: 42, Game ended after 17 steps
+2023-04-13 18:35:34,645,[Eval] episode:42,avg_a_R:-0.77,avg_d_R:-0.52,avg_t:9.23,avg_h:0.12,acc_A_R:-21.00,acc_D_R:-144.30,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,651,Eval episode: 43, Game ended after 18 steps
+2023-04-13 18:35:34,651,[Eval] episode:43,avg_a_R:-0.77,avg_d_R:-0.53,avg_t:9.43,avg_h:0.11,acc_A_R:-22.00,acc_D_R:-145.10,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,653,Eval episode: 44, Game ended after 5 steps
+2023-04-13 18:35:34,653,[Eval] episode:44,avg_a_R:-0.78,avg_d_R:-0.52,avg_t:9.33,avg_h:0.11,acc_A_R:-23.00,acc_D_R:-145.30,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,661,Eval episode: 45, Game ended after 22 steps
+2023-04-13 18:35:34,661,[Eval] episode:45,avg_a_R:-0.74,avg_d_R:-0.57,avg_t:9.61,avg_h:0.13,acc_A_R:-22.00,acc_D_R:-148.10,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,662,Eval episode: 46, Game ended after 2 steps
+2023-04-13 18:35:34,662,[Eval] episode:46,avg_a_R:-0.74,avg_d_R:-0.55,avg_t:9.45,avg_h:0.13,acc_A_R:-23.00,acc_D_R:-147.70,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,672,Eval episode: 47, Game ended after 27 steps
+2023-04-13 18:35:34,672,[Eval] episode:47,avg_a_R:-0.71,avg_d_R:-0.60,avg_t:9.81,avg_h:0.15,acc_A_R:-22.00,acc_D_R:-150.50,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,680,Eval episode: 48, Game ended after 24 steps
+2023-04-13 18:35:34,680,[Eval] episode:48,avg_a_R:-0.67,avg_d_R:-0.64,avg_t:10.10,avg_h:0.16,acc_A_R:-21.00,acc_D_R:-153.30,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,687,Eval episode: 49, Game ended after 19 steps
+2023-04-13 18:35:34,687,[Eval] episode:49,avg_a_R:-0.64,avg_d_R:-0.69,avg_t:10.28,avg_h:0.18,acc_A_R:-20.00,acc_D_R:-156.10,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,694,Eval episode: 50, Game ended after 20 steps
+2023-04-13 18:35:34,694,[Eval] episode:50,avg_a_R:-0.65,avg_d_R:-0.69,avg_t:10.47,avg_h:0.18,acc_A_R:-21.00,acc_D_R:-156.90,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,696,Eval episode: 51, Game ended after 8 steps
+2023-04-13 18:35:34,697,[Eval] episode:51,avg_a_R:-0.65,avg_d_R:-0.69,avg_t:10.42,avg_h:0.17,acc_A_R:-22.00,acc_D_R:-157.70,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,703,Eval episode: 52, Game ended after 19 steps
+2023-04-13 18:35:34,703,[Eval] episode:52,avg_a_R:-0.62,avg_d_R:-0.73,avg_t:10.58,avg_h:0.19,acc_A_R:-21.00,acc_D_R:-160.50,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,704,Eval episode: 53, Game ended after 2 steps
+2023-04-13 18:35:34,704,[Eval] episode:53,avg_a_R:-0.63,avg_d_R:-0.71,avg_t:10.43,avg_h:0.19,acc_A_R:-22.00,acc_D_R:-160.10,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,707,Eval episode: 54, Game ended after 9 steps
+2023-04-13 18:35:34,707,[Eval] episode:54,avg_a_R:-0.64,avg_d_R:-0.71,avg_t:10.40,avg_h:0.18,acc_A_R:-23.00,acc_D_R:-160.90,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:34,710,Eval episode: 55, Game ended after 6 steps
+2023-04-13 18:35:34,710,[Eval] episode:55,avg_a_R:-0.64,avg_d_R:-0.71,avg_t:10.32,avg_h:0.18,acc_A_R:-24.00,acc_D_R:-161.40,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,714,Eval episode: 56, Game ended after 13 steps
+2023-04-13 18:35:34,714,[Eval] episode:56,avg_a_R:-0.65,avg_d_R:-0.71,avg_t:10.37,avg_h:0.18,acc_A_R:-25.00,acc_D_R:-162.20,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,720,Eval episode: 57, Game ended after 16 steps
+2023-04-13 18:35:34,720,[Eval] episode:57,avg_a_R:-0.66,avg_d_R:-0.71,avg_t:10.47,avg_h:0.17,acc_A_R:-26.00,acc_D_R:-163.00,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,726,Eval episode: 58, Game ended after 16 steps
+2023-04-13 18:35:34,726,[Eval] episode:58,avg_a_R:-0.66,avg_d_R:-0.71,avg_t:10.56,avg_h:0.17,acc_A_R:-27.00,acc_D_R:-163.80,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:34,730,Eval episode: 59, Game ended after 12 steps
+2023-04-13 18:35:34,730,[Eval] episode:59,avg_a_R:-0.67,avg_d_R:-0.71,avg_t:10.58,avg_h:0.17,acc_A_R:-28.00,acc_D_R:-164.60,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:34,731,Eval episode: 60, Game ended after 4 steps
+2023-04-13 18:35:34,732,[Eval] episode:60,avg_a_R:-0.67,avg_d_R:-0.70,avg_t:10.48,avg_h:0.16,acc_A_R:-29.00,acc_D_R:-164.50,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:34,734,Eval episode: 61, Game ended after 6 steps
+2023-04-13 18:35:34,734,[Eval] episode:61,avg_a_R:-0.68,avg_d_R:-0.70,avg_t:10.40,avg_h:0.16,acc_A_R:-30.00,acc_D_R:-165.00,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:34,735,Eval episode: 62, Game ended after 3 steps
+2023-04-13 18:35:34,735,[Eval] episode:62,avg_a_R:-0.68,avg_d_R:-0.68,avg_t:10.29,avg_h:0.16,acc_A_R:-31.00,acc_D_R:-164.90,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:34,737,Eval episode: 63, Game ended after 6 steps
+2023-04-13 18:35:34,737,[Eval] episode:63,avg_a_R:-0.69,avg_d_R:-0.68,avg_t:10.22,avg_h:0.16,acc_A_R:-32.00,acc_D_R:-165.40,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:34,741,Eval episode: 64, Game ended after 12 steps
+2023-04-13 18:35:34,742,[Eval] episode:64,avg_a_R:-0.69,avg_d_R:-0.68,avg_t:10.25,avg_h:0.15,acc_A_R:-33.00,acc_D_R:-166.20,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:34,742,Eval episode: 65, Game ended after 2 steps
+2023-04-13 18:35:34,742,[Eval] episode:65,avg_a_R:-0.70,avg_d_R:-0.67,avg_t:10.12,avg_h:0.15,acc_A_R:-34.00,acc_D_R:-165.80,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:34,745,Eval episode: 66, Game ended after 7 steps
+2023-04-13 18:35:34,745,[Eval] episode:66,avg_a_R:-0.70,avg_d_R:-0.67,avg_t:10.07,avg_h:0.15,acc_A_R:-35.00,acc_D_R:-166.60,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:34,750,Eval episode: 67, Game ended after 16 steps
+2023-04-13 18:35:34,751,[Eval] episode:67,avg_a_R:-0.71,avg_d_R:-0.67,avg_t:10.16,avg_h:0.15,acc_A_R:-36.00,acc_D_R:-167.40,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:34,752,Eval episode: 68, Game ended after 5 steps
+2023-04-13 18:35:34,752,[Eval] episode:68,avg_a_R:-0.71,avg_d_R:-0.66,avg_t:10.09,avg_h:0.14,acc_A_R:-37.00,acc_D_R:-167.60,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:34,753,Eval episode: 69, Game ended after 1 steps
+2023-04-13 18:35:34,753,[Eval] episode:69,avg_a_R:-0.71,avg_d_R:-0.64,avg_t:9.96,avg_h:0.14,acc_A_R:-38.00,acc_D_R:-166.90,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:34,753,Eval episode: 70, Game ended after 1 steps
+2023-04-13 18:35:34,754,[Eval] episode:70,avg_a_R:-0.72,avg_d_R:-0.63,avg_t:9.83,avg_h:0.14,acc_A_R:-39.00,acc_D_R:-166.20,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:34,754,Eval episode: 71, Game ended after 2 steps
+2023-04-13 18:35:34,754,[Eval] episode:71,avg_a_R:-0.72,avg_d_R:-0.61,avg_t:9.72,avg_h:0.14,acc_A_R:-40.00,acc_D_R:-165.80,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:34,757,Eval episode: 72, Game ended after 7 steps
+2023-04-13 18:35:34,757,[Eval] episode:72,avg_a_R:-0.73,avg_d_R:-0.61,avg_t:9.68,avg_h:0.14,acc_A_R:-41.00,acc_D_R:-166.60,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:34,758,Eval episode: 73, Game ended after 4 steps
+2023-04-13 18:35:34,759,[Eval] episode:73,avg_a_R:-0.73,avg_d_R:-0.60,avg_t:9.61,avg_h:0.14,acc_A_R:-42.00,acc_D_R:-166.50,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:34,764,Eval episode: 74, Game ended after 16 steps
+2023-04-13 18:35:34,764,[Eval] episode:74,avg_a_R:-0.73,avg_d_R:-0.61,avg_t:9.69,avg_h:0.13,acc_A_R:-43.00,acc_D_R:-167.30,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:34,768,Eval episode: 75, Game ended after 12 steps
+2023-04-13 18:35:34,768,[Eval] episode:75,avg_a_R:-0.74,avg_d_R:-0.61,avg_t:9.72,avg_h:0.13,acc_A_R:-44.00,acc_D_R:-168.10,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:34,774,Eval episode: 76, Game ended after 17 steps
+2023-04-13 18:35:34,774,[Eval] episode:76,avg_a_R:-0.74,avg_d_R:-0.61,avg_t:9.82,avg_h:0.13,acc_A_R:-45.00,acc_D_R:-168.90,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,776,Eval episode: 77, Game ended after 6 steps
+2023-04-13 18:35:34,777,[Eval] episode:77,avg_a_R:-0.74,avg_d_R:-0.61,avg_t:9.77,avg_h:0.13,acc_A_R:-46.00,acc_D_R:-169.40,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,779,Eval episode: 78, Game ended after 7 steps
+2023-04-13 18:35:34,779,[Eval] episode:78,avg_a_R:-0.75,avg_d_R:-0.61,avg_t:9.73,avg_h:0.13,acc_A_R:-47.00,acc_D_R:-170.20,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,780,Eval episode: 79, Game ended after 2 steps
+2023-04-13 18:35:34,780,[Eval] episode:79,avg_a_R:-0.75,avg_d_R:-0.60,avg_t:9.64,avg_h:0.12,acc_A_R:-48.00,acc_D_R:-169.80,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,787,Eval episode: 80, Game ended after 22 steps
+2023-04-13 18:35:34,788,[Eval] episode:80,avg_a_R:-0.73,avg_d_R:-0.63,avg_t:9.79,avg_h:0.14,acc_A_R:-47.00,acc_D_R:-172.60,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,789,Eval episode: 81, Game ended after 4 steps
+2023-04-13 18:35:34,789,[Eval] episode:81,avg_a_R:-0.73,avg_d_R:-0.62,avg_t:9.72,avg_h:0.13,acc_A_R:-48.00,acc_D_R:-172.50,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,791,Eval episode: 82, Game ended after 5 steps
+2023-04-13 18:35:34,791,[Eval] episode:82,avg_a_R:-0.73,avg_d_R:-0.61,avg_t:9.66,avg_h:0.13,acc_A_R:-49.00,acc_D_R:-172.70,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,795,Eval episode: 83, Game ended after 11 steps
+2023-04-13 18:35:34,795,[Eval] episode:83,avg_a_R:-0.74,avg_d_R:-0.62,avg_t:9.68,avg_h:0.13,acc_A_R:-50.00,acc_D_R:-173.50,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,795,Eval episode: 84, Game ended after 1 steps
+2023-04-13 18:35:34,795,[Eval] episode:84,avg_a_R:-0.74,avg_d_R:-0.60,avg_t:9.58,avg_h:0.13,acc_A_R:-51.00,acc_D_R:-172.80,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,803,Eval episode: 85, Game ended after 22 steps
+2023-04-13 18:35:34,803,[Eval] episode:85,avg_a_R:-0.72,avg_d_R:-0.63,avg_t:9.72,avg_h:0.14,acc_A_R:-50.00,acc_D_R:-175.60,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,807,Eval episode: 86, Game ended after 10 steps
+2023-04-13 18:35:34,807,[Eval] episode:86,avg_a_R:-0.72,avg_d_R:-0.63,avg_t:9.72,avg_h:0.14,acc_A_R:-51.00,acc_D_R:-176.40,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,813,Eval episode: 87, Game ended after 18 steps
+2023-04-13 18:35:34,813,[Eval] episode:87,avg_a_R:-0.70,avg_d_R:-0.65,avg_t:9.82,avg_h:0.15,acc_A_R:-50.00,acc_D_R:-179.20,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,815,Eval episode: 88, Game ended after 6 steps
+2023-04-13 18:35:34,815,[Eval] episode:88,avg_a_R:-0.71,avg_d_R:-0.65,avg_t:9.78,avg_h:0.15,acc_A_R:-51.00,acc_D_R:-179.70,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:34,817,Eval episode: 89, Game ended after 4 steps
+2023-04-13 18:35:34,817,[Eval] episode:89,avg_a_R:-0.71,avg_d_R:-0.64,avg_t:9.71,avg_h:0.14,acc_A_R:-52.00,acc_D_R:-179.60,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,821,Eval episode: 90, Game ended after 11 steps
+2023-04-13 18:35:34,821,[Eval] episode:90,avg_a_R:-0.71,avg_d_R:-0.64,avg_t:9.73,avg_h:0.14,acc_A_R:-53.00,acc_D_R:-180.40,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,825,Eval episode: 91, Game ended after 10 steps
+2023-04-13 18:35:34,825,[Eval] episode:91,avg_a_R:-0.72,avg_d_R:-0.65,avg_t:9.73,avg_h:0.14,acc_A_R:-54.00,acc_D_R:-181.20,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,830,Eval episode: 92, Game ended after 16 steps
+2023-04-13 18:35:34,831,[Eval] episode:92,avg_a_R:-0.70,avg_d_R:-0.67,avg_t:9.80,avg_h:0.15,acc_A_R:-53.00,acc_D_R:-184.00,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,834,Eval episode: 93, Game ended after 10 steps
+2023-04-13 18:35:34,834,[Eval] episode:93,avg_a_R:-0.70,avg_d_R:-0.67,avg_t:9.80,avg_h:0.15,acc_A_R:-54.00,acc_D_R:-184.80,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,836,Eval episode: 94, Game ended after 5 steps
+2023-04-13 18:35:34,836,[Eval] episode:94,avg_a_R:-0.71,avg_d_R:-0.67,avg_t:9.75,avg_h:0.15,acc_A_R:-55.00,acc_D_R:-185.00,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,840,Eval episode: 95, Game ended after 9 steps
+2023-04-13 18:35:34,840,[Eval] episode:95,avg_a_R:-0.71,avg_d_R:-0.67,avg_t:9.74,avg_h:0.15,acc_A_R:-56.00,acc_D_R:-185.80,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,840,Eval episode: 96, Game ended after 1 steps
+2023-04-13 18:35:34,841,[Eval] episode:96,avg_a_R:-0.71,avg_d_R:-0.65,avg_t:9.65,avg_h:0.14,acc_A_R:-57.00,acc_D_R:-185.10,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:34,843,Eval episode: 97, Game ended after 7 steps
+2023-04-13 18:35:34,843,[Eval] episode:97,avg_a_R:-0.71,avg_d_R:-0.65,avg_t:9.62,avg_h:0.14,acc_A_R:-58.00,acc_D_R:-185.90,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:34,844,Eval episode: 98, Game ended after 2 steps
+2023-04-13 18:35:34,844,[Eval] episode:98,avg_a_R:-0.72,avg_d_R:-0.64,avg_t:9.55,avg_h:0.14,acc_A_R:-59.00,acc_D_R:-185.50,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:34,846,Eval episode: 99, Game ended after 5 steps
+2023-04-13 18:35:34,846,[Eval] episode:99,avg_a_R:-0.72,avg_d_R:-0.64,avg_t:9.50,avg_h:0.14,acc_A_R:-60.00,acc_D_R:-185.70,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:34,846,[Eval] episode:1000,avg_a_R:-0.72,avg_d_R:-0.64,avg_t:9.50,avg_h:0.14,acc_A_R:-60.00,acc_D_R:-185.70,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:34,846,Evaluation Complete
+2023-04-13 18:35:35,024,[Train] episode: 1100.00 epsilon:0.45,avg_a_R:-0.10,avg_d_R:-1.04,avg_t:4.94,avg_h:0.45,acc_A_R:98.00,acc_D_R:-1407.50,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.55
+2023-04-13 18:35:35,226,[Train] episode: 1200.00 epsilon:0.44,avg_a_R:0.04,avg_d_R:-1.29,avg_t:5.50,avg_h:0.52,acc_A_R:104.00,acc_D_R:-1538.60,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:35,419,[Train] episode: 1300.00 epsilon:0.44,avg_a_R:0.20,avg_d_R:-1.39,avg_t:5.35,avg_h:0.60,acc_A_R:122.00,acc_D_R:-1675.10,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.55
+2023-04-13 18:35:35,601,[Train] episode: 1400.00 epsilon:0.43,avg_a_R:-0.02,avg_d_R:-1.11,avg_t:4.98,avg_h:0.49,acc_A_R:122.00,acc_D_R:-1788.20,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:35,790,[Train] episode: 1500.00 epsilon:0.43,avg_a_R:-0.02,avg_d_R:-1.14,avg_t:5.13,avg_h:0.49,acc_A_R:118.00,acc_D_R:-1900.60,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:35,982,[Train] episode: 1600.00 epsilon:0.43,avg_a_R:0.18,avg_d_R:-1.36,avg_t:5.27,avg_h:0.59,acc_A_R:136.00,acc_D_R:-2036.50,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:36,164,[Train] episode: 1700.00 epsilon:0.42,avg_a_R:-0.10,avg_d_R:-1.05,avg_t:4.96,avg_h:0.45,acc_A_R:126.00,acc_D_R:-2141.70,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.54
+2023-04-13 18:35:36,337,[Train] episode: 1800.00 epsilon:0.42,avg_a_R:-0.12,avg_d_R:-0.98,avg_t:4.83,avg_h:0.44,acc_A_R:116.00,acc_D_R:-2240.60,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.53
+2023-04-13 18:35:36,517,[Train] episode: 1900.00 epsilon:0.41,avg_a_R:0.02,avg_d_R:-1.17,avg_t:5.06,avg_h:0.51,acc_A_R:116.00,acc_D_R:-2356.70,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.53
+2023-04-13 18:35:36,711,[Train] episode: 2000.00 epsilon:0.41,avg_a_R:-0.04,avg_d_R:-1.22,avg_t:5.45,avg_h:0.48,acc_A_R:112.00,acc_D_R:-2479.00,A_loss:0.000000,D_loss:0.000000,replay_s:-1,lr:5.00E-04,c_h:0.53
+2023-04-13 18:35:36,711,Starting Evaluation
+2023-04-13 18:35:36,711,starting eval with non-empty result object
+2023-04-13 18:35:36,713,Eval episode: 0, Game ended after 5 steps
+2023-04-13 18:35:36,714,[Eval] episode:0,avg_a_R:-1.00,avg_d_R:-0.20,avg_t:5.00,avg_h:0.00,acc_A_R:-61.00,acc_D_R:-185.90,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:36,716,Eval episode: 1, Game ended after 6 steps
+2023-04-13 18:35:36,716,[Eval] episode:1,avg_a_R:0.00,avg_d_R:-1.20,avg_t:5.50,avg_h:0.50,acc_A_R:-60.00,acc_D_R:-188.10,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:36,719,Eval episode: 2, Game ended after 8 steps
+2023-04-13 18:35:36,719,[Eval] episode:2,avg_a_R:0.33,avg_d_R:-1.73,avg_t:6.33,avg_h:0.67,acc_A_R:-59.00,acc_D_R:-190.90,replay_s:-1,lr:0.00E+00,c_h:0.35
+2023-04-13 18:35:36,721,Eval episode: 3, Game ended after 6 steps
+2023-04-13 18:35:36,721,[Eval] episode:3,avg_a_R:0.50,avg_d_R:-1.85,avg_t:6.25,avg_h:0.75,acc_A_R:-58.00,acc_D_R:-193.10,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:36,724,Eval episode: 4, Game ended after 6 steps
+2023-04-13 18:35:36,724,[Eval] episode:4,avg_a_R:0.60,avg_d_R:-1.92,avg_t:6.20,avg_h:0.80,acc_A_R:-57.00,acc_D_R:-195.30,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:36,726,Eval episode: 5, Game ended after 6 steps
+2023-04-13 18:35:36,726,[Eval] episode:5,avg_a_R:0.67,avg_d_R:-1.97,avg_t:6.17,avg_h:0.83,acc_A_R:-56.00,acc_D_R:-197.50,replay_s:-1,lr:0.00E+00,c_h:0.36
+2023-04-13 18:35:36,728,Eval episode: 6, Game ended after 6 steps
+2023-04-13 18:35:36,729,[Eval] episode:6,avg_a_R:0.71,avg_d_R:-2.00,avg_t:6.14,avg_h:0.86,acc_A_R:-55.00,acc_D_R:-199.70,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:36,731,Eval episode: 7, Game ended after 6 steps
+2023-04-13 18:35:36,731,[Eval] episode:7,avg_a_R:0.75,avg_d_R:-2.03,avg_t:6.12,avg_h:0.88,acc_A_R:-54.00,acc_D_R:-201.90,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:36,733,Eval episode: 8, Game ended after 6 steps
+2023-04-13 18:35:36,733,[Eval] episode:8,avg_a_R:0.78,avg_d_R:-2.04,avg_t:6.11,avg_h:0.89,acc_A_R:-53.00,acc_D_R:-204.10,replay_s:-1,lr:0.00E+00,c_h:0.37
+2023-04-13 18:35:36,735,Eval episode: 9, Game ended after 6 steps
+2023-04-13 18:35:36,735,[Eval] episode:9,avg_a_R:0.80,avg_d_R:-2.06,avg_t:6.10,avg_h:0.90,acc_A_R:-52.00,acc_D_R:-206.30,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,738,Eval episode: 10, Game ended after 6 steps
+2023-04-13 18:35:36,738,[Eval] episode:10,avg_a_R:0.82,avg_d_R:-2.07,avg_t:6.09,avg_h:0.91,acc_A_R:-51.00,acc_D_R:-208.50,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,740,Eval episode: 11, Game ended after 6 steps
+2023-04-13 18:35:36,740,[Eval] episode:11,avg_a_R:0.83,avg_d_R:-2.08,avg_t:6.08,avg_h:0.92,acc_A_R:-50.00,acc_D_R:-210.70,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,742,Eval episode: 12, Game ended after 5 steps
+2023-04-13 18:35:36,742,[Eval] episode:12,avg_a_R:0.69,avg_d_R:-1.94,avg_t:6.00,avg_h:0.85,acc_A_R:-51.00,acc_D_R:-210.90,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,744,Eval episode: 13, Game ended after 6 steps
+2023-04-13 18:35:36,744,[Eval] episode:13,avg_a_R:0.71,avg_d_R:-1.96,avg_t:6.00,avg_h:0.86,acc_A_R:-50.00,acc_D_R:-213.10,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,747,Eval episode: 14, Game ended after 7 steps
+2023-04-13 18:35:36,747,[Eval] episode:14,avg_a_R:0.73,avg_d_R:-1.99,avg_t:6.07,avg_h:0.87,acc_A_R:-49.00,acc_D_R:-215.60,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:36,748,Eval episode: 15, Game ended after 1 steps
+2023-04-13 18:35:36,748,[Eval] episode:15,avg_a_R:0.62,avg_d_R:-1.83,avg_t:5.75,avg_h:0.81,acc_A_R:-50.00,acc_D_R:-214.90,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,748,Eval episode: 16, Game ended after 1 steps
+2023-04-13 18:35:36,748,[Eval] episode:16,avg_a_R:0.53,avg_d_R:-1.68,avg_t:5.47,avg_h:0.76,acc_A_R:-51.00,acc_D_R:-214.20,replay_s:-1,lr:0.00E+00,c_h:0.38
+2023-04-13 18:35:36,750,Eval episode: 17, Game ended after 6 steps
+2023-04-13 18:35:36,751,[Eval] episode:17,avg_a_R:0.56,avg_d_R:-1.71,avg_t:5.50,avg_h:0.78,acc_A_R:-50.00,acc_D_R:-216.40,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:36,753,Eval episode: 18, Game ended after 6 steps
+2023-04-13 18:35:36,753,[Eval] episode:18,avg_a_R:0.58,avg_d_R:-1.73,avg_t:5.53,avg_h:0.79,acc_A_R:-49.00,acc_D_R:-218.60,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:36,755,Eval episode: 19, Game ended after 6 steps
+2023-04-13 18:35:36,755,[Eval] episode:19,avg_a_R:0.60,avg_d_R:-1.76,avg_t:5.55,avg_h:0.80,acc_A_R:-48.00,acc_D_R:-220.80,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:36,757,Eval episode: 20, Game ended after 6 steps
+2023-04-13 18:35:36,757,[Eval] episode:20,avg_a_R:0.62,avg_d_R:-1.78,avg_t:5.57,avg_h:0.81,acc_A_R:-47.00,acc_D_R:-223.00,replay_s:-1,lr:0.00E+00,c_h:0.39
+2023-04-13 18:35:36,760,Eval episode: 21, Game ended after 7 steps
+2023-04-13 18:35:36,760,[Eval] episode:21,avg_a_R:0.64,avg_d_R:-1.81,avg_t:5.64,avg_h:0.82,acc_A_R:-46.00,acc_D_R:-225.50,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,762,Eval episode: 22, Game ended after 6 steps
+2023-04-13 18:35:36,762,[Eval] episode:22,avg_a_R:0.65,avg_d_R:-1.83,avg_t:5.65,avg_h:0.83,acc_A_R:-45.00,acc_D_R:-227.70,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,764,Eval episode: 23, Game ended after 5 steps
+2023-04-13 18:35:36,764,[Eval] episode:23,avg_a_R:0.58,avg_d_R:-1.76,avg_t:5.62,avg_h:0.79,acc_A_R:-46.00,acc_D_R:-227.90,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,767,Eval episode: 24, Game ended after 6 steps
+2023-04-13 18:35:36,767,[Eval] episode:24,avg_a_R:0.52,avg_d_R:-1.71,avg_t:5.64,avg_h:0.76,acc_A_R:-47.00,acc_D_R:-228.40,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,769,Eval episode: 25, Game ended after 6 steps
+2023-04-13 18:35:36,769,[Eval] episode:25,avg_a_R:0.54,avg_d_R:-1.73,avg_t:5.65,avg_h:0.77,acc_A_R:-46.00,acc_D_R:-230.60,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,771,Eval episode: 26, Game ended after 6 steps
+2023-04-13 18:35:36,771,[Eval] episode:26,avg_a_R:0.56,avg_d_R:-1.74,avg_t:5.67,avg_h:0.78,acc_A_R:-45.00,acc_D_R:-232.80,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,774,Eval episode: 27, Game ended after 6 steps
+2023-04-13 18:35:36,774,[Eval] episode:27,avg_a_R:0.50,avg_d_R:-1.70,avg_t:5.68,avg_h:0.75,acc_A_R:-46.00,acc_D_R:-233.30,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,776,Eval episode: 28, Game ended after 6 steps
+2023-04-13 18:35:36,776,[Eval] episode:28,avg_a_R:0.52,avg_d_R:-1.72,avg_t:5.69,avg_h:0.76,acc_A_R:-45.00,acc_D_R:-235.50,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,778,Eval episode: 29, Game ended after 6 steps
+2023-04-13 18:35:36,778,[Eval] episode:29,avg_a_R:0.53,avg_d_R:-1.73,avg_t:5.70,avg_h:0.77,acc_A_R:-44.00,acc_D_R:-237.70,replay_s:-1,lr:0.00E+00,c_h:0.40
+2023-04-13 18:35:36,781,Eval episode: 30, Game ended after 7 steps
+2023-04-13 18:35:36,781,[Eval] episode:30,avg_a_R:0.55,avg_d_R:-1.76,avg_t:5.74,avg_h:0.77,acc_A_R:-43.00,acc_D_R:-240.20,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:36,783,Eval episode: 31, Game ended after 7 steps
+2023-04-13 18:35:36,784,[Eval] episode:31,avg_a_R:0.56,avg_d_R:-1.78,avg_t:5.78,avg_h:0.78,acc_A_R:-42.00,acc_D_R:-242.70,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:36,786,Eval episode: 32, Game ended after 6 steps
+2023-04-13 18:35:36,786,[Eval] episode:32,avg_a_R:0.58,avg_d_R:-1.79,avg_t:5.79,avg_h:0.79,acc_A_R:-41.00,acc_D_R:-244.90,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:36,788,Eval episode: 33, Game ended after 6 steps
+2023-04-13 18:35:36,788,[Eval] episode:33,avg_a_R:0.59,avg_d_R:-1.81,avg_t:5.79,avg_h:0.79,acc_A_R:-40.00,acc_D_R:-247.10,replay_s:-1,lr:0.00E+00,c_h:0.41
+2023-04-13 18:35:36,791,Eval episode: 34, Game ended after 7 steps
+2023-04-13 18:35:36,791,[Eval] episode:34,avg_a_R:0.60,avg_d_R:-1.83,avg_t:5.83,avg_h:0.80,acc_A_R:-39.00,acc_D_R:-249.60,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,793,Eval episode: 35, Game ended after 6 steps
+2023-04-13 18:35:36,793,[Eval] episode:35,avg_a_R:0.61,avg_d_R:-1.84,avg_t:5.83,avg_h:0.81,acc_A_R:-38.00,acc_D_R:-251.80,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,796,Eval episode: 36, Game ended after 8 steps
+2023-04-13 18:35:36,796,[Eval] episode:36,avg_a_R:0.62,avg_d_R:-1.86,avg_t:5.89,avg_h:0.81,acc_A_R:-37.00,acc_D_R:-254.60,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,796,Eval episode: 37, Game ended after 1 steps
+2023-04-13 18:35:36,797,[Eval] episode:37,avg_a_R:0.58,avg_d_R:-1.79,avg_t:5.76,avg_h:0.79,acc_A_R:-38.00,acc_D_R:-253.90,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,797,Eval episode: 38, Game ended after 2 steps
+2023-04-13 18:35:36,797,[Eval] episode:38,avg_a_R:0.54,avg_d_R:-1.74,avg_t:5.67,avg_h:0.77,acc_A_R:-39.00,acc_D_R:-253.50,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,798,Eval episode: 39, Game ended after 2 steps
+2023-04-13 18:35:36,798,[Eval] episode:39,avg_a_R:0.50,avg_d_R:-1.69,avg_t:5.58,avg_h:0.75,acc_A_R:-40.00,acc_D_R:-253.10,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,801,Eval episode: 40, Game ended after 6 steps
+2023-04-13 18:35:36,801,[Eval] episode:40,avg_a_R:0.51,avg_d_R:-1.70,avg_t:5.59,avg_h:0.76,acc_A_R:-39.00,acc_D_R:-255.30,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,803,Eval episode: 41, Game ended after 6 steps
+2023-04-13 18:35:36,803,[Eval] episode:41,avg_a_R:0.48,avg_d_R:-1.67,avg_t:5.60,avg_h:0.74,acc_A_R:-40.00,acc_D_R:-255.80,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,805,Eval episode: 42, Game ended after 6 steps
+2023-04-13 18:35:36,805,[Eval] episode:42,avg_a_R:0.49,avg_d_R:-1.68,avg_t:5.60,avg_h:0.74,acc_A_R:-39.00,acc_D_R:-258.00,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,807,Eval episode: 43, Game ended after 5 steps
+2023-04-13 18:35:36,807,[Eval] episode:43,avg_a_R:0.45,avg_d_R:-1.65,avg_t:5.59,avg_h:0.73,acc_A_R:-40.00,acc_D_R:-258.20,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,810,Eval episode: 44, Game ended after 7 steps
+2023-04-13 18:35:36,810,[Eval] episode:44,avg_a_R:0.47,avg_d_R:-1.67,avg_t:5.62,avg_h:0.73,acc_A_R:-39.00,acc_D_R:-260.70,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,812,Eval episode: 45, Game ended after 6 steps
+2023-04-13 18:35:36,812,[Eval] episode:45,avg_a_R:0.48,avg_d_R:-1.68,avg_t:5.63,avg_h:0.74,acc_A_R:-38.00,acc_D_R:-262.90,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,813,Eval episode: 46, Game ended after 1 steps
+2023-04-13 18:35:36,813,[Eval] episode:46,avg_a_R:0.45,avg_d_R:-1.63,avg_t:5.53,avg_h:0.72,acc_A_R:-39.00,acc_D_R:-262.20,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,815,Eval episode: 47, Game ended after 6 steps
+2023-04-13 18:35:36,815,[Eval] episode:47,avg_a_R:0.46,avg_d_R:-1.64,avg_t:5.54,avg_h:0.73,acc_A_R:-38.00,acc_D_R:-264.40,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,818,Eval episode: 48, Game ended after 7 steps
+2023-04-13 18:35:36,818,[Eval] episode:48,avg_a_R:0.47,avg_d_R:-1.66,avg_t:5.57,avg_h:0.73,acc_A_R:-37.00,acc_D_R:-266.90,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,819,Eval episode: 49, Game ended after 2 steps
+2023-04-13 18:35:36,819,[Eval] episode:49,avg_a_R:0.44,avg_d_R:-1.62,avg_t:5.50,avg_h:0.72,acc_A_R:-38.00,acc_D_R:-266.50,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,821,Eval episode: 50, Game ended after 6 steps
+2023-04-13 18:35:36,821,[Eval] episode:50,avg_a_R:0.45,avg_d_R:-1.63,avg_t:5.51,avg_h:0.73,acc_A_R:-37.00,acc_D_R:-268.70,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,822,Eval episode: 51, Game ended after 2 steps
+2023-04-13 18:35:36,822,[Eval] episode:51,avg_a_R:0.42,avg_d_R:-1.59,avg_t:5.44,avg_h:0.71,acc_A_R:-38.00,acc_D_R:-268.30,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,822,Eval episode: 52, Game ended after 1 steps
+2023-04-13 18:35:36,823,[Eval] episode:52,avg_a_R:0.40,avg_d_R:-1.55,avg_t:5.36,avg_h:0.70,acc_A_R:-39.00,acc_D_R:-267.60,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,824,Eval episode: 53, Game ended after 4 steps
+2023-04-13 18:35:36,824,[Eval] episode:53,avg_a_R:0.37,avg_d_R:-1.51,avg_t:5.33,avg_h:0.69,acc_A_R:-40.00,acc_D_R:-267.50,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,826,Eval episode: 54, Game ended after 6 steps
+2023-04-13 18:35:36,827,[Eval] episode:54,avg_a_R:0.38,avg_d_R:-1.53,avg_t:5.35,avg_h:0.69,acc_A_R:-39.00,acc_D_R:-269.70,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,829,Eval episode: 55, Game ended after 6 steps
+2023-04-13 18:35:36,829,[Eval] episode:55,avg_a_R:0.39,avg_d_R:-1.54,avg_t:5.36,avg_h:0.70,acc_A_R:-38.00,acc_D_R:-271.90,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,830,Eval episode: 56, Game ended after 2 steps
+2023-04-13 18:35:36,830,[Eval] episode:56,avg_a_R:0.37,avg_d_R:-1.51,avg_t:5.30,avg_h:0.68,acc_A_R:-39.00,acc_D_R:-271.50,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,831,Eval episode: 57, Game ended after 2 steps
+2023-04-13 18:35:36,831,[Eval] episode:57,avg_a_R:0.34,avg_d_R:-1.47,avg_t:5.24,avg_h:0.67,acc_A_R:-40.00,acc_D_R:-271.10,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,833,Eval episode: 58, Game ended after 6 steps
+2023-04-13 18:35:36,833,[Eval] episode:58,avg_a_R:0.36,avg_d_R:-1.48,avg_t:5.25,avg_h:0.68,acc_A_R:-39.00,acc_D_R:-273.30,replay_s:-1,lr:0.00E+00,c_h:0.42
+2023-04-13 18:35:36,837,Eval episode: 59, Game ended after 11 steps
+2023-04-13 18:35:36,837,[Eval] episode:59,avg_a_R:0.37,avg_d_R:-1.51,avg_t:5.35,avg_h:0.68,acc_A_R:-38.00,acc_D_R:-276.10,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,839,Eval episode: 60, Game ended after 6 steps
+2023-04-13 18:35:36,839,[Eval] episode:60,avg_a_R:0.38,avg_d_R:-1.52,avg_t:5.36,avg_h:0.69,acc_A_R:-37.00,acc_D_R:-278.30,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,841,Eval episode: 61, Game ended after 6 steps
+2023-04-13 18:35:36,842,[Eval] episode:61,avg_a_R:0.39,avg_d_R:-1.53,avg_t:5.37,avg_h:0.69,acc_A_R:-36.00,acc_D_R:-280.50,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,844,Eval episode: 62, Game ended after 6 steps
+2023-04-13 18:35:36,844,[Eval] episode:62,avg_a_R:0.40,avg_d_R:-1.54,avg_t:5.38,avg_h:0.70,acc_A_R:-35.00,acc_D_R:-282.70,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,845,Eval episode: 63, Game ended after 2 steps
+2023-04-13 18:35:36,845,[Eval] episode:63,avg_a_R:0.38,avg_d_R:-1.51,avg_t:5.33,avg_h:0.69,acc_A_R:-36.00,acc_D_R:-282.30,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,847,Eval episode: 64, Game ended after 7 steps
+2023-04-13 18:35:36,847,[Eval] episode:64,avg_a_R:0.38,avg_d_R:-1.52,avg_t:5.35,avg_h:0.69,acc_A_R:-35.00,acc_D_R:-284.80,replay_s:-1,lr:0.00E+00,c_h:0.43
+2023-04-13 18:35:36,850,Eval episode: 65, Game ended after 6 steps
+2023-04-13 18:35:36,850,[Eval] episode:65,avg_a_R:0.39,avg_d_R:-1.53,avg_t:5.36,avg_h:0.70,acc_A_R:-34.00,acc_D_R:-287.00,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,852,Eval episode: 66, Game ended after 6 steps
+2023-04-13 18:35:36,852,[Eval] episode:66,avg_a_R:0.40,avg_d_R:-1.54,avg_t:5.37,avg_h:0.70,acc_A_R:-33.00,acc_D_R:-289.20,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,853,Eval episode: 67, Game ended after 2 steps
+2023-04-13 18:35:36,853,[Eval] episode:67,avg_a_R:0.38,avg_d_R:-1.52,avg_t:5.32,avg_h:0.69,acc_A_R:-34.00,acc_D_R:-288.80,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,855,Eval episode: 68, Game ended after 6 steps
+2023-04-13 18:35:36,855,[Eval] episode:68,avg_a_R:0.39,avg_d_R:-1.53,avg_t:5.33,avg_h:0.70,acc_A_R:-33.00,acc_D_R:-291.00,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,858,Eval episode: 69, Game ended after 7 steps
+2023-04-13 18:35:36,858,[Eval] episode:69,avg_a_R:0.37,avg_d_R:-1.52,avg_t:5.36,avg_h:0.69,acc_A_R:-34.00,acc_D_R:-291.80,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,860,Eval episode: 70, Game ended after 5 steps
+2023-04-13 18:35:36,860,[Eval] episode:70,avg_a_R:0.35,avg_d_R:-1.50,avg_t:5.35,avg_h:0.68,acc_A_R:-35.00,acc_D_R:-292.00,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,862,Eval episode: 71, Game ended after 6 steps
+2023-04-13 18:35:36,862,[Eval] episode:71,avg_a_R:0.36,avg_d_R:-1.51,avg_t:5.36,avg_h:0.68,acc_A_R:-34.00,acc_D_R:-294.20,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,865,Eval episode: 72, Game ended after 6 steps
+2023-04-13 18:35:36,865,[Eval] episode:72,avg_a_R:0.37,avg_d_R:-1.52,avg_t:5.37,avg_h:0.68,acc_A_R:-33.00,acc_D_R:-296.40,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,867,Eval episode: 73, Game ended after 6 steps
+2023-04-13 18:35:36,867,[Eval] episode:73,avg_a_R:0.38,avg_d_R:-1.53,avg_t:5.38,avg_h:0.69,acc_A_R:-32.00,acc_D_R:-298.60,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,870,Eval episode: 74, Game ended after 8 steps
+2023-04-13 18:35:36,870,[Eval] episode:74,avg_a_R:0.39,avg_d_R:-1.54,avg_t:5.41,avg_h:0.69,acc_A_R:-31.00,acc_D_R:-301.40,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,873,Eval episode: 75, Game ended after 6 steps
+2023-04-13 18:35:36,873,[Eval] episode:75,avg_a_R:0.39,avg_d_R:-1.55,avg_t:5.42,avg_h:0.70,acc_A_R:-30.00,acc_D_R:-303.60,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,875,Eval episode: 76, Game ended after 7 steps
+2023-04-13 18:35:36,876,[Eval] episode:76,avg_a_R:0.38,avg_d_R:-1.54,avg_t:5.44,avg_h:0.69,acc_A_R:-31.00,acc_D_R:-304.40,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,878,Eval episode: 77, Game ended after 6 steps
+2023-04-13 18:35:36,878,[Eval] episode:77,avg_a_R:0.38,avg_d_R:-1.55,avg_t:5.45,avg_h:0.69,acc_A_R:-30.00,acc_D_R:-306.60,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,880,Eval episode: 78, Game ended after 6 steps
+2023-04-13 18:35:36,880,[Eval] episode:78,avg_a_R:0.37,avg_d_R:-1.54,avg_t:5.46,avg_h:0.68,acc_A_R:-31.00,acc_D_R:-307.10,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,881,Eval episode: 79, Game ended after 1 steps
+2023-04-13 18:35:36,881,[Eval] episode:79,avg_a_R:0.35,avg_d_R:-1.51,avg_t:5.40,avg_h:0.68,acc_A_R:-32.00,acc_D_R:-306.40,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,883,Eval episode: 80, Game ended after 6 steps
+2023-04-13 18:35:36,883,[Eval] episode:80,avg_a_R:0.36,avg_d_R:-1.52,avg_t:5.41,avg_h:0.68,acc_A_R:-31.00,acc_D_R:-308.60,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,885,Eval episode: 81, Game ended after 5 steps
+2023-04-13 18:35:36,885,[Eval] episode:81,avg_a_R:0.34,avg_d_R:-1.50,avg_t:5.40,avg_h:0.67,acc_A_R:-32.00,acc_D_R:-308.80,replay_s:-1,lr:0.00E+00,c_h:0.44
+2023-04-13 18:35:36,888,Eval episode: 82, Game ended after 6 steps
+2023-04-13 18:35:36,888,[Eval] episode:82,avg_a_R:0.35,avg_d_R:-1.51,avg_t:5.41,avg_h:0.67,acc_A_R:-31.00,acc_D_R:-311.00,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,891,Eval episode: 83, Game ended after 8 steps
+2023-04-13 18:35:36,891,[Eval] episode:83,avg_a_R:0.36,avg_d_R:-1.53,avg_t:5.44,avg_h:0.68,acc_A_R:-30.00,acc_D_R:-313.80,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,893,Eval episode: 84, Game ended after 6 steps
+2023-04-13 18:35:36,893,[Eval] episode:84,avg_a_R:0.36,avg_d_R:-1.53,avg_t:5.45,avg_h:0.68,acc_A_R:-29.00,acc_D_R:-316.00,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,895,Eval episode: 85, Game ended after 6 steps
+2023-04-13 18:35:36,895,[Eval] episode:85,avg_a_R:0.37,avg_d_R:-1.54,avg_t:5.45,avg_h:0.69,acc_A_R:-28.00,acc_D_R:-318.20,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,898,Eval episode: 86, Game ended after 7 steps
+2023-04-13 18:35:36,898,[Eval] episode:86,avg_a_R:0.38,avg_d_R:-1.55,avg_t:5.47,avg_h:0.69,acc_A_R:-27.00,acc_D_R:-320.70,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,899,Eval episode: 87, Game ended after 1 steps
+2023-04-13 18:35:36,899,[Eval] episode:87,avg_a_R:0.36,avg_d_R:-1.53,avg_t:5.42,avg_h:0.68,acc_A_R:-28.00,acc_D_R:-320.00,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,901,Eval episode: 88, Game ended after 6 steps
+2023-04-13 18:35:36,901,[Eval] episode:88,avg_a_R:0.37,avg_d_R:-1.53,avg_t:5.43,avg_h:0.69,acc_A_R:-27.00,acc_D_R:-322.20,replay_s:-1,lr:0.00E+00,c_h:0.45
+2023-04-13 18:35:36,903,Eval episode: 89, Game ended after 6 steps
+2023-04-13 18:35:36,903,[Eval] episode:89,avg_a_R:0.38,avg_d_R:-1.54,avg_t:5.43,avg_h:0.69,acc_A_R:-26.00,acc_D_R:-324.40,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:36,905,Eval episode: 90, Game ended after 6 steps
+2023-04-13 18:35:36,905,[Eval] episode:90,avg_a_R:0.38,avg_d_R:-1.55,avg_t:5.44,avg_h:0.69,acc_A_R:-25.00,acc_D_R:-326.60,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:36,908,Eval episode: 91, Game ended after 7 steps
+2023-04-13 18:35:36,908,[Eval] episode:91,avg_a_R:0.39,avg_d_R:-1.56,avg_t:5.46,avg_h:0.70,acc_A_R:-24.00,acc_D_R:-329.10,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:36,911,Eval episode: 92, Game ended after 7 steps
+2023-04-13 18:35:36,911,[Eval] episode:92,avg_a_R:0.40,avg_d_R:-1.57,avg_t:5.47,avg_h:0.70,acc_A_R:-23.00,acc_D_R:-331.60,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:36,913,Eval episode: 93, Game ended after 6 steps
+2023-04-13 18:35:36,913,[Eval] episode:93,avg_a_R:0.40,avg_d_R:-1.58,avg_t:5.48,avg_h:0.70,acc_A_R:-22.00,acc_D_R:-333.80,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:36,916,Eval episode: 94, Game ended after 7 steps
+2023-04-13 18:35:36,916,[Eval] episode:94,avg_a_R:0.41,avg_d_R:-1.59,avg_t:5.49,avg_h:0.71,acc_A_R:-21.00,acc_D_R:-336.30,replay_s:-1,lr:0.00E+00,c_h:0.46
+2023-04-13 18:35:36,918,Eval episode: 95, Game ended after 7 steps
+2023-04-13 18:35:36,918,[Eval] episode:95,avg_a_R:0.42,avg_d_R:-1.59,avg_t:5.51,avg_h:0.71,acc_A_R:-20.00,acc_D_R:-338.80,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:36,921,Eval episode: 96, Game ended after 7 steps
+2023-04-13 18:35:36,921,[Eval] episode:96,avg_a_R:0.42,avg_d_R:-1.60,avg_t:5.53,avg_h:0.71,acc_A_R:-19.00,acc_D_R:-341.30,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:36,923,Eval episode: 97, Game ended after 6 steps
+2023-04-13 18:35:36,923,[Eval] episode:97,avg_a_R:0.43,avg_d_R:-1.61,avg_t:5.53,avg_h:0.71,acc_A_R:-18.00,acc_D_R:-343.50,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:36,925,Eval episode: 98, Game ended after 6 steps
+2023-04-13 18:35:36,925,[Eval] episode:98,avg_a_R:0.43,avg_d_R:-1.62,avg_t:5.54,avg_h:0.72,acc_A_R:-17.00,acc_D_R:-345.70,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:36,928,Eval episode: 99, Game ended after 6 steps
+2023-04-13 18:35:36,928,[Eval] episode:99,avg_a_R:0.44,avg_d_R:-1.62,avg_t:5.54,avg_h:0.72,acc_A_R:-16.00,acc_D_R:-347.90,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:36,928,[Eval] episode:2000,avg_a_R:0.44,avg_d_R:-1.62,avg_t:5.54,avg_h:0.72,acc_A_R:-16.00,acc_D_R:-347.90,replay_s:-1,lr:0.00E+00,c_h:0.47
+2023-04-13 18:35:36,928,Evaluation Complete
+2023-04-13 18:35:36,928,Training Complete
+2023-04-13 18:35:36,928,Starting Evaluation
+2023-04-13 18:35:36,928,starting eval with non-empty result object
+2023-04-13 18:35:36,930,Eval episode: 0, Game ended after 6 steps
+2023-04-13 18:35:36,931,Eval episode: 1, Game ended after 1 steps
+2023-04-13 18:35:36,931,Eval episode: 2, Game ended after 1 steps
+2023-04-13 18:35:36,933,Eval episode: 3, Game ended after 6 steps
+2023-04-13 18:35:36,935,Eval episode: 4, Game ended after 6 steps
+2023-04-13 18:35:36,938,Eval episode: 5, Game ended after 7 steps
+2023-04-13 18:35:36,941,Eval episode: 6, Game ended after 9 steps
+2023-04-13 18:35:36,943,Eval episode: 7, Game ended after 6 steps
+2023-04-13 18:35:36,945,Eval episode: 8, Game ended after 5 steps
+2023-04-13 18:35:36,946,Eval episode: 9, Game ended after 4 steps
+2023-04-13 18:35:36,949,Eval episode: 10, Game ended after 6 steps
+2023-04-13 18:35:36,949,Eval episode: 11, Game ended after 2 steps
+2023-04-13 18:35:36,950,Eval episode: 12, Game ended after 2 steps
+2023-04-13 18:35:36,953,Eval episode: 13, Game ended after 7 steps
+2023-04-13 18:35:36,954,Eval episode: 14, Game ended after 4 steps
+2023-04-13 18:35:36,957,Eval episode: 15, Game ended after 8 steps
+2023-04-13 18:35:36,959,Eval episode: 16, Game ended after 6 steps
+2023-04-13 18:35:36,959,Eval episode: 17, Game ended after 1 steps
+2023-04-13 18:35:36,961,Eval episode: 18, Game ended after 5 steps
+2023-04-13 18:35:36,962,Eval episode: 19, Game ended after 2 steps
+2023-04-13 18:35:36,964,Eval episode: 20, Game ended after 6 steps
+2023-04-13 18:35:36,966,Eval episode: 21, Game ended after 6 steps
+2023-04-13 18:35:36,968,Eval episode: 22, Game ended after 4 steps
+2023-04-13 18:35:36,970,Eval episode: 23, Game ended after 6 steps
+2023-04-13 18:35:36,970,Eval episode: 24, Game ended after 2 steps
+2023-04-13 18:35:36,972,Eval episode: 25, Game ended after 6 steps
+2023-04-13 18:35:36,973,Eval episode: 26, Game ended after 1 steps
+2023-04-13 18:35:36,975,Eval episode: 27, Game ended after 6 steps
+2023-04-13 18:35:36,977,Eval episode: 28, Game ended after 7 steps
+2023-04-13 18:35:36,978,Eval episode: 29, Game ended after 1 steps
+2023-04-13 18:35:36,980,Eval episode: 30, Game ended after 6 steps
+2023-04-13 18:35:36,981,Eval episode: 31, Game ended after 2 steps
+2023-04-13 18:35:36,983,Eval episode: 32, Game ended after 6 steps
+2023-04-13 18:35:36,983,Eval episode: 33, Game ended after 2 steps
+2023-04-13 18:35:36,985,Eval episode: 34, Game ended after 6 steps
+2023-04-13 18:35:36,988,Eval episode: 35, Game ended after 6 steps
+2023-04-13 18:35:36,990,Eval episode: 36, Game ended after 7 steps
+2023-04-13 18:35:36,992,Eval episode: 37, Game ended after 6 steps
+2023-04-13 18:35:36,992,Eval episode: 38, Game ended after 1 steps
+2023-04-13 18:35:36,995,Eval episode: 39, Game ended after 8 steps
+2023-04-13 18:35:36,997,Eval episode: 40, Game ended after 6 steps
+2023-04-13 18:35:36,999,Eval episode: 41, Game ended after 6 steps
+2023-04-13 18:35:37,001,Eval episode: 42, Game ended after 4 steps
+2023-04-13 18:35:37,001,Eval episode: 43, Game ended after 1 steps
+2023-04-13 18:35:37,002,Eval episode: 44, Game ended after 1 steps
+2023-04-13 18:35:37,003,Eval episode: 45, Game ended after 5 steps
+2023-04-13 18:35:37,007,Eval episode: 46, Game ended after 10 steps
+2023-04-13 18:35:37,007,Eval episode: 47, Game ended after 2 steps
+2023-04-13 18:35:37,010,Eval episode: 48, Game ended after 6 steps
+2023-04-13 18:35:37,012,Eval episode: 49, Game ended after 6 steps
+2023-04-13 18:35:37,014,Eval episode: 50, Game ended after 6 steps
+2023-04-13 18:35:37,014,Eval episode: 51, Game ended after 1 steps
+2023-04-13 18:35:37,015,Eval episode: 52, Game ended after 1 steps
+2023-04-13 18:35:37,017,Eval episode: 53, Game ended after 6 steps
+2023-04-13 18:35:37,019,Eval episode: 54, Game ended after 7 steps
+2023-04-13 18:35:37,022,Eval episode: 55, Game ended after 7 steps
+2023-04-13 18:35:37,024,Eval episode: 56, Game ended after 6 steps
+2023-04-13 18:35:37,024,Eval episode: 57, Game ended after 1 steps
+2023-04-13 18:35:37,027,Eval episode: 58, Game ended after 7 steps
+2023-04-13 18:35:37,027,Eval episode: 59, Game ended after 2 steps
+2023-04-13 18:35:37,029,Eval episode: 60, Game ended after 5 steps
+2023-04-13 18:35:37,032,Eval episode: 61, Game ended after 6 steps
+2023-04-13 18:35:37,034,Eval episode: 62, Game ended after 6 steps
+2023-04-13 18:35:37,036,Eval episode: 63, Game ended after 6 steps
+2023-04-13 18:35:37,038,Eval episode: 64, Game ended after 6 steps
+2023-04-13 18:35:37,040,Eval episode: 65, Game ended after 6 steps
+2023-04-13 18:35:37,043,Eval episode: 66, Game ended after 6 steps
+2023-04-13 18:35:37,043,Eval episode: 67, Game ended after 2 steps
+2023-04-13 18:35:37,046,Eval episode: 68, Game ended after 6 steps
+2023-04-13 18:35:37,046,Eval episode: 69, Game ended after 2 steps
+2023-04-13 18:35:37,048,Eval episode: 70, Game ended after 6 steps
+2023-04-13 18:35:37,051,Eval episode: 71, Game ended after 7 steps
+2023-04-13 18:35:37,053,Eval episode: 72, Game ended after 6 steps
+2023-04-13 18:35:37,055,Eval episode: 73, Game ended after 6 steps
+2023-04-13 18:35:37,058,Eval episode: 74, Game ended after 7 steps
+2023-04-13 18:35:37,060,Eval episode: 75, Game ended after 6 steps
+2023-04-13 18:35:37,062,Eval episode: 76, Game ended after 6 steps
+2023-04-13 18:35:37,064,Eval episode: 77, Game ended after 6 steps
+2023-04-13 18:35:37,067,Eval episode: 78, Game ended after 7 steps
+2023-04-13 18:35:37,069,Eval episode: 79, Game ended after 6 steps
+2023-04-13 18:35:37,070,Eval episode: 80, Game ended after 3 steps
+2023-04-13 18:35:37,073,Eval episode: 81, Game ended after 10 steps
+2023-04-13 18:35:37,075,Eval episode: 82, Game ended after 6 steps
+2023-04-13 18:35:37,077,Eval episode: 83, Game ended after 4 steps
+2023-04-13 18:35:37,079,Eval episode: 84, Game ended after 6 steps
+2023-04-13 18:35:37,079,Eval episode: 85, Game ended after 2 steps
+2023-04-13 18:35:37,080,Eval episode: 86, Game ended after 1 steps
+2023-04-13 18:35:37,082,Eval episode: 87, Game ended after 7 steps
+2023-04-13 18:35:37,085,Eval episode: 88, Game ended after 8 steps
+2023-04-13 18:35:37,087,Eval episode: 89, Game ended after 6 steps
+2023-04-13 18:35:37,087,Eval episode: 90, Game ended after 1 steps
+2023-04-13 18:35:37,088,Eval episode: 91, Game ended after 2 steps
+2023-04-13 18:35:37,090,Eval episode: 92, Game ended after 4 steps
+2023-04-13 18:35:37,091,Eval episode: 93, Game ended after 4 steps
+2023-04-13 18:35:37,093,Eval episode: 94, Game ended after 5 steps
+2023-04-13 18:35:37,095,Eval episode: 95, Game ended after 6 steps
+2023-04-13 18:35:37,096,Eval episode: 96, Game ended after 2 steps
+2023-04-13 18:35:37,098,Eval episode: 97, Game ended after 6 steps
+2023-04-13 18:35:37,098,Eval episode: 98, Game ended after 2 steps
+2023-04-13 18:35:37,100,Eval episode: 99, Game ended after 6 steps
+2023-04-13 18:35:37,100,Evaluation Complete
+2023-04-13 18:35:37,100,--- Defender State Values ---
+2023-04-13 18:35:37,100,s:0,V(s):-1.1155827506705915
+2023-04-13 18:35:37,101,--------------------
+2023-04-13 18:35:37,101,Saving Q-table to: /Users/evink/Desktop/kcc/tabular_q_learning_availability/results/data/0//1681378537.1010208_defender_q_table.npy

@@ -70,7 +70,9 @@ class TabularQAgent(QAgent):
         if max_legal_action == float("-inf") or max_legal_action_value == float("-inf"):
             raise AssertionError("Error when selecting action greedily according to the Q-function")
         return max_legal_action
-
+    # the reason why hack probability in train results decreases but in eval results increases is because in train results,
+    # the hack probability is calculated based on the number of successful attacks, while in eval results, the hack probability
+    # is calculated based on the number of attacks
     def train(self) -> ExperimentResult:
         """
         Runs the Q(0)-learning algorithm
@@ -423,6 +425,7 @@ class TabularQAgent(QAgent):
             if episode % self.config.eval_log_frequency == 0 and log:
                 if self.num_eval_games > 0:
                     self.eval_hack_probability = float(self.num_eval_hacks) / float(self.num_eval_games)
+                    # self.eval_hack_probability = float(self.num_eval_hacks) / float(self.num_eval_games)
                 if self.num_eval_games_total > 0:
                     self.eval_cumulative_hack_probability = float(self.num_eval_hacks_total) / float(
                         self.num_eval_games_total)

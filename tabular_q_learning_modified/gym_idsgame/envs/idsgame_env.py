@@ -138,6 +138,12 @@ class IdsGameEnv(gym.Env, ABC):
                           self.idsgame_config.game_config.network_config, detect=detect)
         
         if defense_successful:
+            correct_defense = self.state.is_valid_defense(target_node_id, attack_type, defense_node_id, defense_type, self.idsgame_config.game_config.network_config)
+            if correct_defense == True:
+                reward = list(reward)
+                reward[1] += constants.GAME_CONFIG.CORRECT_DEFENSE_REWARD
+                reward = tuple(reward)
+            
         #     reward = list(reward)
         #     reward[1] -= constants.GAME_CONFIG.AVAILABILITY_REWARD
         #     reward = tuple(reward)
@@ -150,11 +156,6 @@ class IdsGameEnv(gym.Env, ABC):
 
             if not reconnaissance:
                 # 4. Attack
-                correct_defense = self.state.is_valid_defense(target_node_id, attack_type, defense_node_id, defense_type, self.idsgame_config.game_config.network_config)
-                if correct_defense == True:
-                    reward = list(reward)
-                    reward[1] += constants.GAME_CONFIG.CORRECT_DEFENSE_REWARD
-                    reward = tuple(reward)
                 self.state.attack(target_node_id, attack_type, self.idsgame_config.game_config.max_value,
                                   self.idsgame_config.game_config.network_config,
                                   reconnaissance_enabled=self.idsgame_config.reconnaissance_actions)
